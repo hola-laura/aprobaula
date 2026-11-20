@@ -1,0 +1,326 @@
+## M01
+? ¿Qué dos grandes tipos de factores intervienen en el desarrollo infantil según el enfoque interaccionista?
++ Los factores biológicos (herencia, maduración) y los ambientales (entorno, estimulación), en interacción.
+- Solo los genéticos: el ambiente apenas influye antes de los 6 años.
+- Solo los ambientales: el niño nace como una tabla rasa.
+- Los factores económicos y los escolares, por separado.
+= Hoy se entiende el desarrollo como fruto de la interacción entre lo que el niño trae (herencia y maduración) y lo que el entorno le ofrece. Ni la genética ni el ambiente explican el desarrollo por sí solos.
+
+? ¿Qué ley del desarrollo describe que el control motor avanza de la cabeza hacia los pies?
++ La ley céfalo-caudal.
+- La ley próximo-distal.
+- La ley de lo general a lo específico.
+- La ley de la conservación.
+= Por la ley céfalo-caudal, el bebé controla primero la cabeza, después el tronco y por último las piernas. La próximo-distal va del eje del cuerpo hacia las extremidades.
+
+? Según la ley próximo-distal, ¿qué controla antes un bebé?
++ Los hombros y los brazos antes que las manos y los dedos.
+- Los dedos antes que los brazos.
+- Las piernas antes que la cabeza.
+- La pinza fina antes que el agarre palmar.
+= El control avanza desde el eje del cuerpo hacia fuera: primero articulaciones cercanas al tronco (hombro, codo) y después las más alejadas (muñeca, dedos).
+
+? ¿Qué reflejo arcaico consiste en que el bebé abre los brazos y luego los cierra como en un abrazo ante un sobresalto?
++ El reflejo de Moro.
+- El reflejo de Babinski.
+- El reflejo de succión.
+- El reflejo tónico-asimétrico del cuello.
+= El reflejo de Moro aparece ante un ruido fuerte o una sensación de caída. Suele desaparecer hacia los 4-6 meses; si persiste mucho más, conviene valorarlo.
+
+? Al acariciar la planta del pie de un recién nacido, los dedos se abren en abanico. ¿Qué reflejo es?
++ El reflejo de Babinski.
+- El reflejo de Moro.
+- El reflejo de prensión plantar.
+- El reflejo de marcha automática.
+= El de Babinski es la extensión del dedo gordo y apertura de los demás al estimular la planta. Es normal en el primer año y desaparece con la maduración del sistema nervioso.
+
+? ¿Hacia qué edad aparece de forma típica la sonrisa social (en respuesta a la cara humana)?
++ Hacia los 2-3 meses.
+- En la primera semana de vida.
+- Hacia los 8 meses.
+- Hacia los 12 meses.
+= Spitz la describe como el primer organizador del psiquismo: hacia el segundo o tercer mes el bebé sonríe ante un rostro humano, sea o no conocido.
+
+? ¿Qué es la "angustia del octavo mes" descrita por Spitz?
++ El miedo o rechazo ante personas extrañas, señal de que el bebé ya distingue a sus figuras de apego.
+- El miedo a la oscuridad típico de los 8 años.
+- El llanto causado por la salida de los dientes.
+- Una alteración del sueño que requiere tratamiento.
+= Es el segundo organizador de Spitz. Que el bebé reaccione con angustia ante desconocidos indica que ya ha formado vínculos diferenciados con sus cuidadores.
+
+? En el primer año de vida, ¿qué papel tiene el adulto según el enfoque actual?
++ Es la figura de apego que da seguridad, interpreta las necesidades del bebé y le ofrece estímulos ajustados.
+- Su papel es secundario: el bebé se desarrolla solo por maduración.
+- Debe evitar coger al bebé en brazos para no malacostumbrarlo.
+- Solo debe cubrir alimentación e higiene.
+= El vínculo con un adulto sensible y disponible es la base de la seguridad emocional y de la exploración. Atender el llanto no "malcría": construye confianza.
+
+? ¿A qué edad suele conseguir un bebé sentarse sin apoyo?
++ Hacia los 6-8 meses.
+- Hacia los 2 meses.
+- Hacia los 12-15 meses.
+- Hacia los 18 meses.
+= Primero controla la cabeza (3-4 meses), luego se sienta sin apoyo (6-8 meses), gatea y se pone de pie, y suele andar solo entre los 12 y los 15 meses.
+
+? ¿Qué caracteriza el período sensible en el desarrollo?
++ Es un momento en el que el niño es especialmente receptivo a ciertos aprendizajes o estímulos.
+- Es una etapa en la que no conviene estimular al niño.
+- Es una enfermedad propia del primer año.
+- Es el tiempo de adaptación a la escuela infantil.
+= Montessori y la psicología evolutiva hablan de periodos en los que ciertos aprendizajes (lenguaje, orden, movimiento) se adquieren con especial facilidad si el entorno los favorece.
+
+## M02
+? ¿Qué es el esquema corporal?
++ La representación que cada persona tiene de su propio cuerpo, sus partes y sus posibilidades de movimiento.
+- El dibujo de la figura humana que hace un niño de 3 años.
+- El conjunto de reflejos del recién nacido.
+- La talla y el peso del niño según su edad.
+= El esquema corporal se construye poco a poco a partir de las sensaciones y del movimiento. Es la base de la orientación espacial, la lateralidad y la coordinación.
+
+? Hacia qué edad suele consolidarse la lateralidad (preferencia clara de un lado del cuerpo)?
++ Entre los 5 y los 7 años aproximadamente.
+- A los 6 meses.
+- Al año y medio.
+- No se define hasta la adolescencia.
+= Antes hay una etapa de alternancia en la que el niño usa ambas manos. La lateralidad se va definiendo en Infantil y suele consolidarse hacia el final de la etapa o inicio de Primaria.
+
+? ¿Qué distingue la motricidad gruesa de la fina?
++ La gruesa implica grandes grupos musculares (andar, saltar) y la fina movimientos precisos de manos y dedos.
+- La gruesa es la de los adultos y la fina la de los niños.
+- La fina aparece antes que la gruesa.
+- Son sinónimos en el currículo de Infantil.
+= Correr, trepar o mantener el equilibrio son motricidad gruesa. Hacer la pinza, enhebrar, recortar o trazar son motricidad fina, que madura más tarde.
+
+? ¿Qué es la "pinza superior" o pinza fina?
++ Coger objetos pequeños oponiendo la yema del pulgar y la del índice.
+- Coger un objeto con toda la palma de la mano.
+- Pasar un objeto de una mano a otra.
+- Soltar un objeto voluntariamente.
+= La pinza superior suele aparecer hacia los 9-12 meses, después del agarre palmar y de la pinza inferior. Es un hito clave de la motricidad fina.
+
+? En psicomotricidad, ¿qué es la sensación?
++ La recepción de un estímulo por los órganos de los sentidos.
+- La interpretación que el cerebro hace del estímulo.
+- Un sentimiento de alegría o tristeza.
+- La memoria de una experiencia pasada.
+= La sensación es el registro del estímulo. La percepción va un paso más allá: organiza e interpreta esa información y le da significado.
+
+? ¿Qué diferencia hay entre sensación y percepción?
++ La percepción organiza e interpreta las sensaciones y les da significado.
+- No hay diferencia, son sinónimos.
+- La sensación es consciente y la percepción no.
+- La percepción solo es visual.
+= Primero llega el estímulo (sensación) y después el cerebro lo integra con experiencias anteriores para reconocerlo (percepción). Por eso la percepción se educa.
+
+? ¿Qué autor desarrolló la práctica psicomotriz educativa centrada en la expresividad motriz del niño y el juego espontáneo en sala?
++ Bernard Aucouturier.
+- Jean Piaget.
+- María Montessori.
+- Ovide Decroly.
+= La práctica psicomotriz Aucouturier parte del juego libre en una sala preparada, con el adulto como acompañante que observa y ajusta, para favorecer el paso del placer de actuar al placer de pensar.
+
+? En educación infantil, una sesión de psicomotricidad suele organizarse en:
++ Un ritual de entrada, un momento de juego y movimiento, una vuelta a la calma y un ritual de salida.
+- Una explicación teórica y un examen.
+- Solo ejercicios dirigidos de gimnasia.
+- Una competición por equipos.
+= La estructura por momentos da seguridad y permite pasar del movimiento libre a la representación (dibujo, construcción, verbalización) en la parte final.
+
+? ¿Qué es el tono muscular?
++ El grado de tensión de los músculos en reposo y en movimiento, base de la postura y del equilibrio.
+- La fuerza máxima que puede hacer un niño.
+- El color de la piel tras el ejercicio.
+- El ritmo de la respiración.
+= El tono está muy ligado a lo emocional (Wallon habló del diálogo tónico): un bebé tenso o relajado comunica su estado al adulto que lo sostiene.
+
+## M03
+? ¿Qué autor formuló la teoría del apego?
++ John Bowlby.
+- Lev Vygotsky.
+- Jerome Bruner.
+- Howard Gardner.
+= Bowlby explicó que el bebé tiende de forma innata a buscar la proximidad de una figura protectora. Mary Ainsworth amplió su trabajo y describió los tipos de apego.
+
+? ¿Qué procedimiento usó Mary Ainsworth para estudiar los tipos de apego?
++ La "situación extraña": breves separaciones y reencuentros con la madre en presencia de un desconocido.
+- La prueba de la conservación del líquido.
+- El test del dibujo de la familia.
+- La escala de desarrollo de Brunet-Lézine.
+= Observando cómo reacciona el niño al separarse y al reencontrarse con la figura de apego, Ainsworth distinguió el apego seguro, el inseguro-evitativo y el inseguro-ambivalente (después se añadió el desorganizado).
+
+? Un niño con apego seguro, ante la separación de su figura de apego:
++ Protesta o se inquieta, y al reencontrarse busca consuelo y se calma pronto.
+- No muestra ninguna reacción ni al irse ni al volver.
+- Llora y no se calma aunque vuelva la madre.
+- Se va con cualquier desconocido sin preferencia.
+= El apego seguro combina exploración confiada y búsqueda de consuelo cuando hace falta. La ausencia total de reacción se asocia al apego evitativo.
+
+? Según Erikson, ¿qué crisis psicosocial se da aproximadamente entre el año y medio y los 3 años?
++ Autonomía frente a vergüenza y duda.
+- Confianza frente a desconfianza.
+- Iniciativa frente a culpa.
+- Laboriosidad frente a inferioridad.
+= Erikson sitúa la confianza en el primer año, la autonomía en la primera infancia (control de esfínteres, "yo solo") y la iniciativa entre los 3 y los 6 años.
+
+? ¿Qué etapa psicosocial de Erikson corresponde al segundo ciclo de Infantil (3-6 años)?
++ Iniciativa frente a culpa.
+- Autonomía frente a vergüenza.
+- Identidad frente a confusión de roles.
+- Intimidad frente a aislamiento.
+= En esta etapa el niño emprende proyectos, juega a ser otros y prueba límites. Un entorno que acoge esa iniciativa sin culpabilizar favorece su desarrollo.
+
+? ¿Qué se entiende por autoconcepto?
++ La imagen que la persona tiene de sí misma.
+- La valoración positiva o negativa de uno mismo.
+- La opinión que los demás tienen del niño.
+- La capacidad de esperar un premio.
+= El autoconcepto es la parte descriptiva ("soy alto, me gustan los coches"). La autoestima es la parte valorativa: cómo me siento con esa imagen.
+
+? ¿Qué actitud del adulto favorece la conquista de la autonomía en Infantil?
++ Dejar que el niño haga por sí mismo lo que ya puede hacer, aunque tarde más, y ayudarle solo en lo necesario.
+- Hacerle todo para evitar que se frustre.
+- Exigirle que lo haga todo solo desde el primer día.
+- Premiarle con un regalo cada vez que lo intenta.
+= Ofrecer tiempo, rutinas estables y la ayuda justa permite que el niño gane confianza. Sobreproteger le resta oportunidades; exigir por encima de su madurez genera inseguridad.
+
+? ¿Qué son las rabietas hacia los 2 años desde el punto de vista evolutivo?
++ Una expresión normal de frustración en un momento en que el niño quiere autonomía y aún no sabe regular sus emociones.
+- Un trastorno de conducta que requiere derivación inmediata.
+- Una señal de que el niño tiene apego inseguro.
+- Un problema que se resuelve con castigo físico.
+= Son esperables en la etapa del "no". El adulto acompaña con calma, pone nombre a la emoción y mantiene el límite sin humillar ni ceder a todo.
+
+? ¿Qué autor es conocido por el concepto de "objeto transicional" (el peluche o la mantita que ayudan al niño a separarse)?
++ Donald Winnicott.
+- Arnold Gesell.
+- Henri Wallon.
+- Albert Bandura.
+= Winnicott describió cómo un objeto elegido por el niño le sirve de puente entre la figura materna y el mundo. En la escuela infantil conviene respetarlo, sobre todo en el periodo de adaptación.
+
+## M04
+? ¿Qué es la socialización?
++ El proceso por el que el niño aprende las normas, valores y conductas de su grupo y se integra en él.
+- Solo la capacidad de hablar con otros niños.
+- La matrícula en la escuela infantil.
+- El juego en solitario.
+= La socialización empieza en la familia (socialización primaria) y continúa en la escuela y otros grupos. La escuela infantil es el primer contexto social fuera de casa para muchos niños.
+
+? Según Parten, ¿cómo se llama el juego en el que dos niños juegan uno al lado del otro con materiales parecidos, pero sin interactuar?
++ Juego paralelo.
+- Juego cooperativo.
+- Juego asociativo.
+- Juego de reglas.
+= Es típico hacia los 2-3 años. Después aparecen el juego asociativo (comparten material, sin objetivo común) y el cooperativo (con roles y meta compartida).
+
+? ¿Qué teoría explica que los niños aprenden conductas observando e imitando modelos?
++ El aprendizaje social de Albert Bandura.
+- El condicionamiento clásico de Pavlov.
+- La epistemología genética de Piaget.
+- La teoría de las inteligencias múltiples.
+= Bandura mostró con el experimento del muñeco Bobo que los niños imitan la conducta de los adultos. Por eso el modelo que da el educador importa tanto.
+
+? Ante un conflicto entre dos niños de 4 años por un juguete, ¿qué intervención es más adecuada?
++ Acompañarles a expresar lo que sienten y ayudarles a buscar una solución juntos.
+- Quitar el juguete y castigar a los dos sin hablar.
+- Dejar que lo resuelvan a golpes para que aprendan.
+- Dar siempre la razón al que llegó primero sin escuchar.
+= Los conflictos son ocasiones de aprendizaje. El adulto media, pone nombre a las emociones y modela formas de negociar y turnarse.
+
+? ¿Qué significa que la escuela es una institución socializadora?
++ Que transmite normas, valores y formas de convivencia además de contenidos.
+- Que solo enseña a leer y a escribir.
+- Que sustituye por completo a la familia.
+- Que su única función es la custodia de los niños.
+= La escuela es agente de socialización secundaria: amplía el mundo de relaciones del niño y le enseña a convivir con iguales y con adultos que no son su familia.
+
+? ¿Qué es el egocentrismo infantil en el sentido de Piaget?
++ La dificultad del niño para adoptar un punto de vista distinto del suyo.
+- El egoísmo moral del niño.
+- Una conducta que hay que castigar.
+- La falta de interés por los demás niños.
+= No es una cuestión moral: en la etapa preoperacional el niño cree que los demás ven y piensan lo mismo que él. Se supera poco a poco con la interacción social.
+
+? En la prevención de situaciones de riesgo social, ¿cuál es el papel del centro de educación infantil?
++ Detectar indicios, coordinarse con servicios sociales y ofrecer un entorno seguro y compensador.
+- Ninguno: es competencia exclusiva de la policía.
+- Investigar a la familia por su cuenta.
+- Informar a otras familias del caso.
+= El centro observa a diario al niño, por eso es clave en la detección precoz. Debe comunicar a los servicios competentes y guardar la confidencialidad.
+
+? ¿Qué conducta prosocial es esperable que empiece a aparecer en el segundo ciclo de Infantil?
++ Consolar a un compañero que llora o compartir material de forma espontánea.
+- Resolver dilemas morales abstractos.
+- Negociar contratos complejos de juego con reglas escritas.
+- Elegir delegado de clase por votación secreta.
+= La empatía y las conductas de ayuda aparecen pronto y se refuerzan con modelos adultos y con oportunidades de cooperar.
+
+## M05
+? Según Piaget, ¿cuál es el estadio del desarrollo cognitivo entre el nacimiento y los 2 años aproximadamente?
++ Sensoriomotor.
+- Preoperacional.
+- Operaciones concretas.
+- Operaciones formales.
+= En el estadio sensoriomotor el niño conoce el mundo a través de los sentidos y la acción. Termina con la aparición de la función simbólica.
+
+? ¿Qué estadio piagetiano corresponde al segundo ciclo de Infantil (2-7 años aprox.)?
++ Preoperacional.
+- Sensoriomotor.
+- Operaciones concretas.
+- Operaciones formales.
+= Es el estadio del pensamiento simbólico e intuitivo: aparecen el lenguaje, el juego simbólico y el dibujo, pero aún con egocentrismo, centración e irreversibilidad.
+
+? ¿Qué es la permanencia del objeto?
++ Saber que un objeto sigue existiendo aunque no se vea.
+- Guardar los juguetes siempre en el mismo sitio.
+- Recordar el nombre de los objetos.
+- Agrupar objetos por color.
+= Se construye durante el estadio sensoriomotor. Por eso el "cucú-tras" divierte tanto: el bebé descubre que la cara sigue ahí aunque se tape.
+
+? Un niño de 4 años cree que hay más agua en un vaso alto y estrecho que en uno bajo y ancho con la misma cantidad. ¿Qué característica muestra?
++ Ausencia de conservación, por centración en una sola dimensión.
+- Pensamiento formal.
+- Reversibilidad completa.
+- Dominio de la seriación.
+= En la etapa preoperacional el niño se fija en un solo rasgo (la altura) y no tiene en cuenta que el cambio puede deshacerse. La conservación llega con las operaciones concretas.
+
+? ¿Qué es el animismo en el pensamiento infantil?
++ Atribuir vida o intenciones a objetos inanimados ("la mesa es mala porque me ha pegado").
+- Interesarse mucho por los animales.
+- Creer que todo lo ha hecho el ser humano.
+- Pensar que los sueños son reales.
+= El animismo, junto con el artificialismo (creer que todo lo ha fabricado alguien) y el realismo, son rasgos típicos del pensamiento preoperacional.
+
+? ¿Qué concepto de Vygotsky describe la distancia entre lo que el niño hace solo y lo que puede hacer con ayuda?
++ La zona de desarrollo próximo.
+- El periodo sensible.
+- La acomodación.
+- El aprendizaje por descubrimiento.
+= La enseñanza eficaz se sitúa en esa zona: propone retos que el niño todavía no resuelve solo pero sí con la ayuda de un adulto o de un compañero más capaz.
+
+? ¿Qué término de Bruner, Wood y Ross designa la ayuda temporal que el adulto ofrece y retira a medida que el niño gana competencia?
++ Andamiaje.
+- Asimilación.
+- Imitación diferida.
+- Condicionamiento operante.
+= Como un andamio en una obra: se pone mientras hace falta y se retira cuando el niño puede solo. Conecta directamente con la zona de desarrollo próximo.
+
+? Para Piaget, ¿cómo se llama el proceso de incorporar información nueva a los esquemas que ya se tienen?
++ Asimilación.
+- Acomodación.
+- Equilibración.
+- Andamiaje.
+= Con la asimilación encajamos lo nuevo en lo que ya sabemos; con la acomodación modificamos el esquema cuando no encaja. El equilibrio entre ambos impulsa el desarrollo.
+
+? ¿Qué es la función simbólica?
++ La capacidad de representar algo ausente mediante símbolos: lenguaje, juego simbólico, dibujo o imitación diferida.
+- La capacidad de leer símbolos matemáticos.
+- La memoria a corto plazo.
+- La capacidad de clasificar objetos por forma.
+= Aparece hacia los 18-24 meses y marca el paso del estadio sensoriomotor al preoperacional. Un niño que da de comer a un muñeco con un palito ya está simbolizando.
+
+? En la exploración del entorno, ¿qué metodología es más coherente con el desarrollo cognitivo infantil?
++ La manipulación directa, la observación y la experimentación con objetos reales.
+- La memorización de definiciones.
+- Las fichas de lápiz y papel como única actividad.
+- La explicación oral del maestro sin materiales.
+= El conocimiento en Infantil se construye actuando sobre los objetos. Por eso el currículo da tanto peso a la experimentación y al juego.

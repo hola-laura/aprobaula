@@ -1,0 +1,17 @@
+{
+  "name": "aprobaula",
+  "private": true,
+  "scripts": {
+    "copy:www": "node scripts/copy-www.js",
+    "ios": "npm run copy:www && npx cap sync ios",
+    "ios:open": "npm run ios && npx cap open ios",
+    "build:questions": "python3 scripts/build-questions.py"
+  },
+  "dependencies": {
+    "@capacitor-community/in-app-review": "^8.0.0",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/ios": "^8.5.2",
+    "@capacitor/status-bar": "^8.0.3"
+  }
+}

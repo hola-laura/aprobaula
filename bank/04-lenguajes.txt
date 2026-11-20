@@ -1,0 +1,336 @@
+## M18
+? ¿Cuál es la etapa prelingüística del desarrollo del lenguaje?
++ La anterior a las primeras palabras: llanto, gorjeo, balbuceo y comunicación gestual (aprox. hasta los 12 meses).
+- La etapa en que el niño construye frases de tres palabras.
+- La etapa de aprendizaje de la lectura.
+- Una etapa en la que el niño no se comunica.
+= Antes de hablar el bebé ya se comunica: mira, sonríe, señala, balbucea. Hacia el año suelen aparecer las primeras palabras.
+
+? ¿Qué es la holofrase?
++ Una sola palabra con la que el niño expresa una idea completa ("agua" = quiero agua).
+- Una frase muy larga.
+- Un error de pronunciación.
+- El uso de dos idiomas a la vez.
+= Hacia los 12-18 meses una palabra funciona como frase. El adulto interpreta su sentido según el contexto, el gesto y la entonación.
+
+? ¿Qué es la sobreextensión en el lenguaje infantil?
++ Usar una palabra para referirse a más cosas de las que abarca ("guau" para todos los animales de cuatro patas).
+- Hablar demasiado alto.
+- Usar palabras muy largas.
+- Repetir la última palabra que oye.
+= Es un fenómeno normal en la adquisición del vocabulario. Con la experiencia el niño va ajustando el significado de las palabras.
+
+? Un niño de 3 años dice "yo cabo" en lugar de "yo quepo". ¿Qué fenómeno es?
++ Una hiperregularización: aplica la regla general de conjugación a un verbo irregular.
+- Un trastorno grave del lenguaje.
+- Una dislalia.
+- Una tartamudez.
+= Indica que el niño ha extraído la regla gramatical. Lo adecuado es devolverle el modelo correcto en la conversación ("¿Ah, sí? ¿Quepo yo también?") sin corregir de forma explícita.
+
+? ¿Qué es una dislalia?
++ Una dificultad para articular correctamente uno o varios fonemas.
+- Una dificultad para leer.
+- Un retraso en la marcha.
+- Un trastorno de la escritura.
+= Muchas dislalias son evolutivas y desaparecen con la maduración. Si persisten más allá de la edad esperada para ese fonema (la /r/ suele ser de los últimos) conviene valorarlas.
+
+? ¿Qué es la disfemia?
++ La tartamudez: alteración de la fluidez del habla con repeticiones o bloqueos.
+- La pérdida de audición.
+- La dificultad para pronunciar la /r/.
+- El mutismo selectivo.
+= Hacia los 3-4 años es frecuente una disfluencia evolutiva. El adulto debe escuchar sin prisa, no completar sus frases y no pedirle que repita.
+
+? Para Vygotsky, ¿qué relación hay entre lenguaje y pensamiento?
++ Tienen raíces distintas pero se unen hacia los 2 años; el lenguaje pasa a ser un instrumento del pensamiento y el habla privada lo regula.
+- El pensamiento es solo lenguaje interiorizado desde el nacimiento.
+- El lenguaje no influye en el pensamiento.
+- El lenguaje es una consecuencia tardía del pensamiento operacional.
+= Para Vygotsky el habla egocéntrica o privada (hablar en voz alta mientras se juega) cumple una función de autorregulación y acaba interiorizándose.
+
+? ¿Qué teoría sostiene que existe un dispositivo innato de adquisición del lenguaje?
++ La de Noam Chomsky.
+- La de B. F. Skinner.
+- La de Lev Vygotsky.
+- La de Jean Piaget.
+= Chomsky habla del LAD (Language Acquisition Device). Skinner, en cambio, explicaba el lenguaje por imitación y refuerzo.
+
+? ¿Qué es la comunicación no verbal?
++ La que se transmite con gestos, mirada, expresión facial, postura o entonación, sin palabras.
+- Solo la lengua de signos.
+- La comunicación escrita.
+- La que no se entiende.
+= En los primeros años la comunicación no verbal es la vía principal. Además, el adulto transmite mucho con su tono y su gesto.
+
+## M19
+? ¿Qué estrategia favorece la expresión oral en el aula de Infantil?
++ Crear situaciones reales de comunicación (asamblea, juego simbólico, contar vivencias) y que el adulto escuche y amplíe lo que el niño dice.
+- Corregir cada error en el momento delante del grupo.
+- Pedir silencio durante toda la jornada.
+- Hacer repetir listas de palabras.
+= La técnica de expansión (repetir lo que dice el niño de forma correcta y algo más completa) favorece el lenguaje sin cortar la comunicación.
+
+? Según el enfoque constructivista de Ferreiro y Teberosky, ¿por qué niveles pasa el niño al aprender a escribir?
++ Presilábico, silábico, silábico-alfabético y alfabético.
+- Copia, dictado, redacción y ortografía.
+- Vocales, consonantes, sílabas y frases.
+- Letra mayúscula, minúscula, cursiva e imprenta.
+= Emilia Ferreiro y Ana Teberosky mostraron que el niño elabora hipótesis sobre la escritura. Conocer el nivel de cada niño permite ajustar la intervención.
+
+? Un niño de 5 años escribe "AO" para "gato", con una letra por sílaba. ¿En qué nivel de escritura está?
++ Silábico.
+- Presilábico.
+- Alfabético.
+- Ortográfico.
+= En el nivel silábico el niño hace corresponder una grafía a cada sílaba, a menudo con la vocal. Es un avance: ya relaciona escritura y sonido.
+
+? ¿Qué es la conciencia fonológica?
++ La capacidad de reflexionar sobre los sonidos del habla: segmentar palabras en sílabas y fonemas, identificar rimas.
+- Saber el nombre de las letras.
+- Leer en voz alta con buena entonación.
+- Tener buena audición.
+= Es uno de los mejores predictores del aprendizaje lector. En Infantil se trabaja con juegos de rimas, palmadas por sílabas o "veo veo" por sonidos.
+
+? ¿Qué dice el currículo LOMLOE sobre el aprendizaje de la lectura y escritura en Infantil?
++ Que se fomenta una primera aproximación a la lectura y la escritura, sin exigirla como objetivo cerrado de la etapa.
+- Que todos los niños deben leer con fluidez a los 5 años.
+- Que está prohibido trabajar letras en Infantil.
+- Que se enseña solo con el método silábico.
+= El RD 95/2022 habla de iniciarse en la lectura y la escritura respetando el ritmo de cada niño, en situaciones funcionales y significativas.
+
+? En una situación de lenguas en contacto (bilingüismo), ¿qué conviene en Infantil?
++ Valorar la lengua familiar del niño y ofrecer modelos ricos en la lengua de la escuela.
+- Pedir a la familia que deje de hablar su lengua en casa.
+- Esperar a que aprenda solo sin apoyo.
+- Considerar el bilingüismo como un retraso.
+= El bilingüismo no es un problema. Respetar la lengua materna refuerza la identidad y la autoestima, y la exposición rica facilita la segunda lengua.
+
+## M20
+? ¿Qué criterio es adecuado para seleccionar cuentos en Infantil?
++ Que la extensión, el lenguaje, las ilustraciones y el tema se ajusten a la edad y a los intereses del grupo.
+- Que sean siempre los más largos.
+- Que no tengan ilustraciones para no distraer.
+- Que transmitan estereotipos tradicionales.
+= Para los más pequeños: libros de cartón, imágenes claras y textos repetitivos. Después, historias con estructura más compleja y temas que conecten con sus vivencias.
+
+? ¿Qué autor analizó la estructura de los cuentos maravillosos en 31 funciones?
++ Vladimir Propp.
+- Gianni Rodari.
+- Bruno Bettelheim.
+- Hans Christian Andersen.
+= En "Morfología del cuento" Propp describe funciones que se repiten (el alejamiento, la prohibición, la prueba, la victoria...). Inspiró juegos como las cartas de Propp de Rodari.
+
+? ¿Qué autor escribió "Gramática de la fantasía", con técnicas como el binomio fantástico?
++ Gianni Rodari.
+- Vladimir Propp.
+- Charles Perrault.
+- Gloria Fuertes.
+= Rodari propone técnicas para inventar historias: unir dos palabras lejanas (binomio fantástico), preguntarse "¿qué pasaría si...?", o los cuentos al revés.
+
+? ¿Qué autor defendió en "Psicoanálisis de los cuentos de hadas" el valor de los cuentos tradicionales para elaborar conflictos internos?
++ Bruno Bettelheim.
+- Jean Piaget.
+- Gianni Rodari.
+- Ana Pelegrín.
+= Bettelheim sostenía que los cuentos de hadas ayudan al niño a afrontar miedos y conflictos de forma simbólica.
+
+? ¿Qué es la biblioteca de aula?
++ Un rincón con libros variados y accesibles, organizado con los niños, para mirar, leer y compartir libremente.
+- La biblioteca municipal.
+- Un armario cerrado donde se guardan los libros del maestro.
+- La sala de ordenadores.
+= Favorece el gusto por los libros, el cuidado de los materiales y el préstamo a casa, que implica a las familias en el hábito lector.
+
+? Al narrar un cuento en voz alta en Infantil, es recomendable:
++ Usar entonación, gestos y pausas, mirar al grupo y permitir que participen con preguntas o repeticiones.
+- Leer muy deprisa para que no se aburran.
+- Prohibir interrupciones.
+- Leer siempre sin enseñar las ilustraciones.
+= La narración oral es un acto de comunicación: el adulto adapta el ritmo, crea expectativa y comprueba la comprensión.
+
+## M21
+? ¿Cuáles son las cualidades del sonido?
++ Altura, intensidad, duración y timbre.
+- Velocidad, color, forma y peso.
+- Ritmo, melodía, armonía y letra.
+- Agudo, grave, alto y bajo.
+= La altura distingue agudo/grave; la intensidad, fuerte/suave; la duración, largo/corto; y el timbre permite reconocer quién o qué suena.
+
+? ¿Qué cualidad del sonido permite distinguir la voz de mamá de la de papá?
++ El timbre.
+- La intensidad.
+- La duración.
+- La altura.
+= El timbre es el "color" del sonido. Juegos de reconocer voces o instrumentos con los ojos cerrados trabajan la discriminación tímbrica.
+
+? ¿Qué pedagogo musical creó un instrumental escolar de láminas (xilófonos, metalófonos) y basó la enseñanza en el ritmo de la palabra?
++ Carl Orff.
+- Émile Jaques-Dalcroze.
+- Zoltán Kodály.
+- Edgar Willems.
+= El método Orff parte del lenguaje, el movimiento y la percusión corporal, con instrumentos de láminas accesibles a los niños.
+
+? ¿Qué método musical se basa en la rítmica a través del movimiento corporal?
++ El de Émile Jaques-Dalcroze.
+- El de Carl Orff.
+- El de Shinichi Suzuki.
+- El de Maurice Martenot.
+= Dalcroze usa el cuerpo como primer instrumento: caminar, saltar y moverse al ritmo de la música.
+
+? ¿Por qué trabajar el silencio en la educación musical infantil?
++ Porque es parte de la música y permite escuchar, discriminar sonidos y regular la atención.
+- Porque así el aula está más tranquila y no hace falta música.
+- Porque los niños no deben hacer ruido.
+- No tiene ningún valor musical.
+= Sin silencio no hay escucha. Juegos de estatuas musicales o de "escuchar el entorno" trabajan la atención y el control.
+
+? ¿Qué papel tiene el folklore popular en la educación musical de Infantil?
++ Transmite canciones, retahílas y juegos de la tradición, cercanos a la cultura del niño y fáciles de aprender.
+- Ninguno, se debe usar solo música clásica.
+- Solo sirve para las fiestas del colegio.
+- Está desaconsejado por ser repetitivo.
+= Las canciones de corro, las nanas o las retahílas combinan lenguaje, ritmo y movimiento, y conectan escuela y familia.
+
+## M22
+? Según Lowenfeld, ¿cómo se llama la primera etapa del dibujo infantil (aprox. 2-4 años)?
++ Garabateo.
+- Preesquemática.
+- Esquemática.
+- Realismo visual.
+= En el garabateo se distinguen el desordenado, el controlado y el con nombre. Después llega la etapa preesquemática (4-7 años), con los primeros intentos de representación.
+
+? ¿Qué es el "renacuajo" o "cabezudo" en el dibujo infantil?
++ La primera representación de la figura humana: un círculo con piernas (y a veces brazos) que salen de la cabeza.
+- Un error que hay que corregir.
+- Un dibujo de un animal.
+- La firma del niño.
+= Aparece hacia los 3-4 años en la etapa preesquemática. Poco a poco se añaden tronco, brazos y detalles.
+
+? Según Luquet, ¿cómo se llama la fase en que el niño dibuja lo que sabe del objeto y no lo que ve (por ejemplo, transparencias)?
++ Realismo intelectual.
+- Realismo visual.
+- Realismo fallido.
+- Garabateo.
+= El niño dibuja lo que sabe que hay: las patatas dentro de la tierra o las personas dentro de la casa. Más tarde llega el realismo visual.
+
+? ¿Cuáles son elementos del lenguaje plástico?
++ El punto, la línea, el color, la forma, la textura y el volumen.
+- El sujeto, el verbo y el predicado.
+- El ritmo y la melodía.
+- La suma y la resta.
+= Trabajar con estos elementos y con técnicas variadas (pintura, modelado, collage) amplía las posibilidades expresivas.
+
+? ¿Qué actitud es adecuada ante las producciones plásticas de los niños?
++ Valorar el proceso y la expresión personal, sin imponer modelos ni estereotipos.
+- Corregir los colores que no son reales.
+- Dar fichas para colorear sin salirse como actividad principal.
+- Exponer solo los dibujos más bonitos.
+= Los modelos cerrados (soles con cara, casas iguales) limitan la creatividad. El adulto ofrece materiales y técnicas, y pregunta por lo que el niño ha querido expresar.
+
+? ¿Qué materiales plásticos son adecuados para un aula de 1-2 años?
++ Pinturas de dedos no tóxicas, ceras gruesas, masas de modelar seguras, siempre con supervisión.
+- Tijeras puntiagudas y pegamento instantáneo.
+- Rotuladores permanentes de punta fina.
+- Purpurina suelta para que la manipulen sin vigilancia.
+= A esta edad prima la exploración sensorial. Los materiales deben ser seguros, no tóxicos y de tamaño adecuado.
+
+## M23
+? ¿Qué es el juego simbólico?
++ El juego en el que el niño representa situaciones o personajes y usa objetos como si fueran otros ("hacer como si").
+- Un juego de mesa con reglas.
+- Un juego de movimiento sin objetos.
+- Jugar con símbolos matemáticos.
+= Aparece hacia los 2 años con la función simbólica y es predominante entre los 2 y los 6-7 años según Piaget.
+
+? Según Piaget, ¿qué tipo de juego predomina en la etapa sensoriomotora?
++ El juego funcional o de ejercicio.
+- El juego simbólico.
+- El juego de reglas.
+- El juego de construcción.
+= Golpear, tirar, sacudir o repetir acciones por el placer que producen es el juego propio de los dos primeros años.
+
+? ¿Qué aporta la expresión corporal en Infantil?
++ Permite comunicar emociones e ideas con el cuerpo, el gesto y el movimiento, y favorece la identidad y la autonomía.
+- Solo sirve para mejorar la condición física.
+- Es una actividad para niños con dificultades.
+- Sustituye a la psicomotricidad.
+= La mímica, la dramatización o la danza libre son recursos para explorar el propio cuerpo como medio de expresión.
+
+? ¿Qué es la dramatización en Infantil?
++ Representar situaciones, cuentos o personajes con el cuerpo y la voz, de forma lúdica y sin buscar un espectáculo perfecto.
+- Memorizar un guion para una función de fin de curso.
+- Ver obras de teatro sentados.
+- Un ejercicio de lectura en voz alta.
+= Lo importante es el proceso: expresar, ponerse en el lugar de otro y cooperar. Las marionetas son un recurso muy útil para empezar.
+
+## M24
+? ¿Qué es la alfabetización audiovisual o mediática en Infantil?
++ Ayudar al niño a leer e interpretar imágenes y mensajes de los medios con una mirada cada vez más crítica.
+- Enseñar a usar la televisión.
+- Prohibir cualquier imagen en el aula.
+- Que los niños vean dibujos animados en clase.
+= Desde pequeños los niños reciben muchísimas imágenes. La escuela les ayuda a distinguir realidad de ficción y a reconocer la intención de un anuncio.
+
+? ¿Qué recomienda la Asociación Española de Pediatría sobre pantallas en menores de 2 años?
++ Evitar su uso (salvo videollamadas puntuales con familiares).
+- Una hora al día de contenido educativo.
+- Uso libre si el contenido es infantil.
+- Tres horas diarias como máximo.
+= Las recomendaciones pediátricas aconsejan evitar las pantallas en los primeros años y, después, limitarlas, acompañarlas y elegir contenidos de calidad.
+
+? Al seleccionar materiales audiovisuales y digitales para Infantil, ¿qué criterio es adecuado?
++ Que sean adecuados a la edad, sin publicidad, que fomenten la participación y que el adulto acompañe su uso.
+- Que sean los más populares en internet.
+- Que duren lo máximo posible.
+- Que no requieran ninguna supervisión.
+= La competencia digital en Infantil se trabaja de forma acompañada y crítica, como una herramienta más y nunca como sustituto de la experiencia directa.
+
+? ¿Qué rasgo de la publicidad dirigida a niños conviene ayudarles a reconocer?
++ Que su intención es convencer para que compren o pidan algo.
+- Que siempre dice la verdad.
+- Que es igual que un dibujo animado.
+- Que no tiene ninguna intención.
+= Hacia los 5-6 años los niños empiezan a distinguir anuncios de programas. Hablar de ello con ellos desarrolla una mirada crítica.
+
+## M25
+? ¿Qué es la seriación?
++ Ordenar objetos según una cualidad que varía de forma gradual (de más pequeño a más grande, de más claro a más oscuro).
+- Agrupar objetos iguales.
+- Contar hasta diez.
+- Repetir un patrón de colores.
+= La seriación es una operación lógica clave. Los niños pequeños ordenan por ensayo y error y más tarde de forma sistemática.
+
+? ¿Qué es la clasificación?
++ Agrupar objetos por semejanzas y separarlos por diferencias según un criterio (color, forma, tamaño).
+- Ordenar del más pequeño al más grande.
+- Contar los objetos de una caja.
+- Medir con palmos.
+= Clasificar exige atender a atributos y mantener un criterio. Los bloques lógicos son un material clásico para trabajarla.
+
+? ¿Qué principio del conteo de Gelman y Gallistel indica que el último número dicho representa la cantidad total del conjunto?
++ El principio de cardinalidad.
+- El principio de correspondencia uno a uno.
+- El principio de orden estable.
+- El principio de abstracción.
+= Gelman y Gallistel describen cinco principios: correspondencia uno a uno, orden estable, cardinalidad, abstracción e irrelevancia del orden.
+
+? ¿Qué es la correspondencia término a término?
++ Asociar a cada elemento de un conjunto un elemento de otro (un vaso para cada niño).
+- Ordenar números de mayor a menor.
+- Escribir los números del 1 al 10.
+- Medir el tiempo con un reloj.
+= Es la base del concepto de número y de la comparación de cantidades. Las rutinas (repartir servilletas, pasar lista) son ocasiones perfectas para trabajarla.
+
+? ¿Qué enfoque de las matemáticas en Infantil es más adecuado?
++ Partir de la manipulación y de situaciones cotidianas para ir hacia la representación y lo simbólico.
+- Empezar por la escritura de los números en fichas.
+- Memorizar las tablas de sumar.
+- Dejar las matemáticas para Primaria.
+= El paso de lo manipulativo a lo gráfico y después a lo simbólico respeta el desarrollo cognitivo. Las situaciones reales dan sentido a las matemáticas.
+
+? ¿Qué nociones espaciales se trabajan en Infantil?
++ Dentro/fuera, arriba/abajo, delante/detrás, cerca/lejos, a un lado/a otro.
+- Latitud y longitud.
+- Escalas de los mapas.
+- Ángulos y grados.
+= Se trabajan primero con el propio cuerpo, después en relación con objetos y por último en representaciones gráficas.

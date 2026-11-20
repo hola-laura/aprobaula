@@ -1,0 +1,265 @@
+## M11
+? Con la LOMLOE y el Real Decreto 95/2022, ¿cuáles son las tres áreas del currículo de Educación Infantil?
++ Crecimiento en Armonía; Descubrimiento y Exploración del Entorno; Comunicación y Representación de la Realidad.
+- Conocimiento de sí mismo; Conocimiento del entorno; Lenguajes: comunicación y representación.
+- Lengua; Matemáticas; Conocimiento del Medio.
+- Identidad; Autonomía; Expresión.
+= Las tres áreas actuales sustituyen a las de la LOE. "Conocimiento de sí mismo y autonomía personal" era la denominación anterior.
+
+? Según el Real Decreto 95/2022, ¿qué son los objetivos de la etapa?
++ Los logros que se espera que el alumnado haya alcanzado al finalizar la etapa.
+- Las actividades concretas de cada día.
+- Los criterios para calificar al alumnado.
+- Los contenidos mínimos de cada área.
+= El artículo 2 del RD 95/2022 define los objetivos como logros esperados al final de la etapa, vinculados a la adquisición de las competencias clave.
+
+? ¿Qué son las competencias específicas en el currículo LOMLOE?
++ Desempeños que el alumnado debe poder realizar en situaciones que requieren los saberes básicos de cada área.
+- Las capacidades del maestro para dar clase.
+- Las notas numéricas de cada trimestre.
+- Los materiales del aula.
+= Las competencias específicas conectan el perfil competencial con los saberes básicos y los criterios de evaluación de cada área.
+
+? ¿Cómo se llaman en la LOMLOE los conocimientos, destrezas y actitudes que constituyen los contenidos de un área?
++ Saberes básicos.
+- Bloques de contenido.
+- Estándares de aprendizaje.
+- Unidades didácticas.
+= Los saberes básicos sustituyen a la antigua denominación de contenidos. Los estándares de aprendizaje evaluables eran propios de la LOMCE.
+
+? ¿En qué documento europeo se basan las competencias clave del currículo LOMLOE?
++ La Recomendación del Consejo de la UE de 22 de mayo de 2018 sobre competencias clave para el aprendizaje permanente.
+- El Tratado de Lisboa de 2007.
+- La Declaración de Salamanca de 1994.
+- El Informe Delors de 1996.
+= La Recomendación de 2018 define ocho competencias clave, que la LOMLOE adapta: lingüística, plurilingüe, matemática y en ciencia, tecnología e ingeniería (STEM), digital, personal, social y de aprender a aprender, ciudadana, emprendedora, y conciencia y expresión culturales.
+
+? ¿Cuántas competencias clave recoge el currículo LOMLOE?
++ Ocho.
+- Cinco.
+- Siete.
+- Diez.
+= Son ocho, como en la Recomendación europea de 2018. La LOMCE recogía siete con otras denominaciones.
+
+? ¿Cuál de estas competencias clave aparece en la LOMLOE?
++ Competencia plurilingüe.
+- Competencia en el tratamiento de la información.
+- Competencia en autonomía e iniciativa personal.
+- Competencia para aprender a leer.
+= La competencia plurilingüe es nueva respecto a la LOMCE. Las otras dos opciones pertenecen a la LOE de 2006 o no existen.
+
+## M12
+? ¿Qué es el enfoque globalizador en Educación Infantil?
++ Presentar los aprendizajes de forma relacionada y significativa, partiendo de situaciones reales y no de materias separadas.
+- Enseñar cada área en una franja horaria distinta.
+- Trabajar contenidos de todo el mundo.
+- Evaluar al niño con una única nota global.
+= El niño percibe la realidad de forma global. Por eso se trabaja con proyectos, centros de interés o situaciones de aprendizaje que integran las tres áreas.
+
+? ¿Qué son las situaciones de aprendizaje según el RD 95/2022?
++ Situaciones y actividades que implican el despliegue de actuaciones asociadas a competencias clave y específicas, y que contribuyen a su adquisición.
+- Las salidas fuera del centro.
+- Los exámenes de final de trimestre.
+- Las sesiones de tutoría con las familias.
+= El RD 95/2022 las define en su artículo 2. Deben ser significativas, partir de los intereses del niño y conectar con su vida real.
+
+? ¿Qué principio metodológico destaca el juego en Infantil?
++ Que el juego es un recurso metodológico fundamental por su carácter motivador y su vinculación con el desarrollo.
+- Que el juego es solo para el recreo.
+- Que el juego distrae del aprendizaje.
+- Que solo se juega con reglas fijadas por el adulto.
+= La normativa insiste en que el juego, la actividad y la experimentación están en la base de los aprendizajes de la etapa.
+
+? ¿Qué es el Diseño Universal para el Aprendizaje (DUA) que la LOMLOE incorpora?
++ Un marco que propone múltiples formas de implicación, representación y acción-expresión para que el currículo sea accesible a todo el alumnado.
+- Un uniforme escolar común.
+- Un programa informático para la evaluación.
+- Una adaptación curricular solo para alumnado con discapacidad.
+= El DUA plantea diseñar desde el inicio pensando en la diversidad, en lugar de adaptar después. La LOMLOE lo menciona expresamente.
+
+? ¿Qué es el aprendizaje significativo en el sentido de Ausubel?
++ El que se produce cuando el niño relaciona lo nuevo con lo que ya sabe y le da sentido.
+- El que tiene más significado para el maestro.
+- El que se aprende de memoria.
+- El que solo se da en Primaria.
+= Partir de los conocimientos previos es un principio básico de intervención educativa en Infantil.
+
+? ¿Qué técnica es la principal para evaluar en Educación Infantil?
++ La observación directa y sistemática.
+- El examen escrito.
+- La prueba oral con nota numérica.
+- La comparación con la media del grupo.
+= La normativa y las órdenes de evaluación autonómicas señalan la observación directa y sistemática como técnica principal, con registros, diarios o escalas.
+
+## M13
+? ¿Qué carácter tienen las enseñanzas mínimas del RD 95/2022 respecto al primer ciclo (0-3)?
++ Carácter orientativo; son las administraciones educativas las que establecen el currículo del primer ciclo.
+- Son obligatorias e idénticas en toda España.
+- No dicen nada del primer ciclo.
+- Solo se aplican en escuelas privadas.
+= El RD 95/2022 fija las enseñanzas mínimas del segundo ciclo, que tienen carácter orientativo para el primer ciclo. Cada comunidad establece el currículo de toda la etapa.
+
+? En la programación del primer ciclo, ¿qué contenidos tienen más peso?
++ Los vinculados a la vida cotidiana: cuidados, rutinas, relación afectiva, movimiento y exploración sensorial.
+- La lectoescritura formal.
+- Las operaciones de suma y resta.
+- Los contenidos de historia.
+= En 0-3 los momentos de cuidado (comida, sueño, higiene) son contenido educativo en sí mismos. La metodología se basa en el vínculo, el juego y la experimentación.
+
+? ¿Qué es el cesto de los tesoros?
++ Una propuesta de Elinor Goldschmied con objetos cotidianos de materiales naturales para que bebés que se sientan exploren con los sentidos.
+- Un juego de reglas para niños de 5 años.
+- Una caja de premios para quien se porta bien.
+- Una colección de juguetes de plástico de colores.
+= Se ofrece a bebés que se sientan pero aún no se desplazan. El adulto está presente y disponible, sin dirigir la exploración.
+
+? ¿Qué es el juego heurístico?
++ Una actividad para niños de 12 a 24 meses aproximadamente con objetos y recipientes variados para combinar, llenar, vaciar o apilar.
+- Un juego de mesa con dados.
+- Un juego simbólico de roles.
+- Una sesión de psicomotricidad dirigida.
+= También propuesto por Goldschmied, continúa el cesto de los tesoros cuando el niño ya se desplaza. Fomenta la exploración, la concentración y el descubrimiento.
+
+? ¿Cómo debe organizarse la jornada en un aula de 0-1 año?
++ Respetando los ritmos individuales de sueño, comida y vigilia de cada bebé.
+- Con el mismo horario de siesta para todos.
+- Con actividades dirigidas cada 15 minutos.
+- Igual que un aula de 3 años.
+= En el aula de bebés no hay un horario colectivo rígido: cada bebé tiene su ritmo. Poco a poco, hacia el segundo año, se van acompasando los ritmos.
+
+? ¿Qué es la "propuesta pedagógica" en Educación Infantil?
++ El documento con el que los centros concretan el currículo para cada ciclo, incluida la atención a la diversidad y la relación con las familias.
+- El folleto publicitario del centro.
+- El menú del comedor.
+- El horario del personal.
+= La normativa encarga a los centros elaborar una propuesta pedagógica que forma parte del proyecto educativo y que respeta el carácter educativo de ambos ciclos.
+
+## M14
+? Al finalizar el segundo ciclo de Infantil, ¿qué aspectos facilitan la transición a Primaria?
++ La coordinación entre tutores de ambas etapas y el traspaso de información sobre cada niño.
+- Que Infantil adelante los contenidos de Primaria con fichas.
+- Que no haya contacto entre etapas.
+- Que el niño repita el último curso de Infantil.
+= La continuidad se asegura con coordinación docente, metodologías que no rompan bruscamente y actividades de conocimiento del nuevo espacio.
+
+? ¿Qué es una unidad de programación en el segundo ciclo?
++ Una forma de organizar la enseñanza durante un periodo con objetivos, saberes, metodología, actividades y evaluación (unidad didáctica, proyecto o situación de aprendizaje).
+- Una sesión aislada de 45 minutos.
+- Un cuaderno de fichas comprado a una editorial.
+- El horario semanal del aula.
+= En las oposiciones de maestros se defiende una programación y una unidad didáctica o situación de aprendizaje, ajustadas a la normativa de la comunidad.
+
+? ¿Qué es el trabajo por proyectos en Infantil?
++ Una metodología que parte de una pregunta o interés de los niños y organiza la investigación de forma global y compartida.
+- Un trabajo individual que el niño hace en casa.
+- Seguir un libro de texto por temas.
+- Una forma de evaluar al final del curso.
+= Siguiendo a Kilpatrick y a autores actuales, el proyecto parte de lo que los niños saben y quieren saber, y termina con una síntesis o producto final compartido.
+
+? ¿Es obligatorio el segundo ciclo de Educación Infantil en España?
++ No; la etapa es voluntaria, aunque el segundo ciclo es gratuito.
+- Sí, desde los 3 años.
+- Sí, desde los 4 años.
+- Solo en las comunidades con lengua cooficial.
+= La LOE, modificada por la LOMLOE, establece que la Educación Infantil tiene carácter voluntario. El segundo ciclo es gratuito y la LOMLOE impulsa la extensión del primero.
+
+## M15
+? ¿Qué implica la intencionalidad educativa del maestro de Infantil?
++ Que las actividades, rutinas y espacios se planifican con objetivos educativos, aunque parezcan espontáneos.
+- Que todo lo que ocurre en el aula es improvisado.
+- Que el maestro solo cuida a los niños.
+- Que el juego libre no tiene valor.
+= Incluso el juego libre o el patio tienen intención educativa cuando el adulto prepara el entorno, observa e interviene con criterio.
+
+? ¿Quién ejerce la tutoría de un grupo de Infantil?
++ Un maestro o maestra tutor, que coordina la acción educativa del grupo y la relación con las familias.
+- Cada familia por turnos.
+- El director del centro.
+- El orientador o la orientadora.
+= La tutoría forma parte de la función docente. En Infantil el tutor pasa mucho tiempo con el grupo, lo que facilita el vínculo y la observación.
+
+? ¿Qué es el equipo de ciclo o equipo docente de Infantil?
++ El grupo de profesionales que trabajan en la etapa y coordinan programación, metodología y evaluación.
+- El consejo escolar.
+- La asociación de familias.
+- La inspección educativa.
+= El trabajo en equipo asegura la coherencia entre aulas y niveles: criterios comunes, uso de espacios y proyectos compartidos.
+
+? ¿Qué rol del adulto en el aula describe mejor el enfoque actual?
++ Mediador y guía que crea un ambiente seguro, observa, escucha y ofrece retos ajustados.
+- Transmisor de conocimientos que habla mientras los niños escuchan.
+- Vigilante que solo evita accidentes.
+- Juez que reparte premios y castigos.
+= El docente de Infantil es mediador del aprendizaje. Su relación afectiva con los niños es una condición para que aprendan.
+
+## M16
+? ¿Qué son los rincones en el aula de Infantil?
++ Espacios delimitados con materiales específicos donde los niños trabajan o juegan en pequeños grupos de forma autónoma.
+- Las esquinas donde se castiga a los niños.
+- Zonas solo para el maestro.
+- Los pasillos del centro.
+= Los rincones (casita, construcciones, biblioteca, plástica, experimentos...) favorecen la autonomía, la elección y la interacción entre iguales.
+
+? ¿Qué función cumplen las rutinas diarias en Infantil?
++ Dan seguridad al niño porque le permiten anticipar lo que va a pasar y son ocasiones de aprendizaje de hábitos.
+- Sirven para que el día sea aburrido.
+- Sustituyen al currículo.
+- Solo sirven para el control del adulto.
+= La asamblea, el almuerzo, la higiene o la despedida estructuran el tiempo. Con ellas el niño construye la noción de tiempo y gana autonomía.
+
+? ¿Qué es la asamblea en el aula de Infantil?
++ Un momento de encuentro en grupo para conversar, planificar el día, compartir vivencias y tomar decisiones.
+- Una reunión de familias.
+- Un examen oral.
+- La fila para salir al patio.
+= La asamblea favorece el lenguaje oral, la escucha, el sentido de pertenencia y la participación. Suele abrir y cerrar la jornada.
+
+? ¿Qué criterio es adecuado al organizar el tiempo en Infantil?
++ Alternar actividades de movimiento y calma, individuales y grupales, respetando los ritmos de los niños.
+- Hacer sesiones largas de actividad sentada.
+- Cambiar el horario cada día para evitar la rutina.
+- Dedicar la mañana entera a fichas.
+= El equilibrio entre actividad y descanso y la flexibilidad para ajustarse a los niños son principios básicos de la organización temporal.
+
+? ¿Por qué Malaguzzi llamaba al ambiente "el tercer maestro"?
++ Porque el espacio, bien organizado y cuidado, educa por sí mismo y comunica una idea de infancia.
+- Porque en cada aula hay tres maestros.
+- Porque el patio es el tercer espacio del centro.
+- Porque los niños aprenden de tres en tres.
+= En Reggio Emilia, después de los niños y los adultos, el ambiente es el tercer educador: luz, materiales, orden y estética importan.
+
+## M17
+? ¿Qué criterio es importante al seleccionar material en Infantil?
++ Que sea seguro, adecuado a la edad, polivalente y que permita la manipulación y la exploración.
+- Que sea el más caro del mercado.
+- Que tenga una sola forma de uso.
+- Que esté siempre fuera del alcance de los niños.
+= La seguridad es lo primero. Después se valora que el material sea atractivo, duradero, versátil y que fomente la actividad del niño.
+
+? ¿Qué es el material inespecífico o no estructurado?
++ Objetos cotidianos y naturales (cajas, telas, piñas, tubos) sin un uso predefinido que favorecen la creatividad.
+- El material que no sirve para nada.
+- Juguetes electrónicos con instrucciones.
+- Libros de fichas.
+= Los materiales abiertos o "loose parts" permiten muchas funciones y transformaciones, y son muy valiosos en el juego libre.
+
+? ¿Qué son los bloques lógicos de Dienes?
++ Un material de piezas con cuatro atributos (forma, color, tamaño y grosor) para trabajar clasificación y relaciones lógicas.
+- Bloques de construcción de madera sin variables.
+- Fichas para aprender letras.
+- Instrumentos musicales.
+= Zoltan Dienes los diseñó para trabajar la lógica: 48 piezas con 4 formas, 3 colores, 2 tamaños y 2 grosores.
+
+? ¿Qué material creó Cuisenaire para trabajar el número?
++ Regletas de colores de distinta longitud que representan los números del 1 al 10.
+- Bloques con forma de animal.
+- El ábaco de bolas.
+- Los dones.
+= Las regletas Cuisenaire permiten componer y descomponer cantidades y comparar longitudes de forma manipulativa.
+
+? ¿Cómo debe hacerse la evaluación de los recursos materiales?
++ Revisando su estado, seguridad, uso real por los niños y adecuación a los objetivos, y reponiendo lo necesario.
+- Una vez al año sin observar el uso.
+- Solo cuando los padres se quejan.
+- No es necesario evaluar el material.
+= Observar qué materiales se usan, cómo y cuáles no interesan permite ajustar la oferta y garantizar la seguridad.

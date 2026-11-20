@@ -1,0 +1,156 @@
+## EI03 @MD
+? Según el Decreto 18/2008 de la Comunidad de Madrid, ¿cuál es el número máximo de niños por unidad para menores de 1 año?
++ 8.
+- 6.
+- 10.
+- 12.
+= El artículo 8 fija 8 niños en el aula de menores de 1 año, 14 en la de 1 a 2 años y 20 en la de 2 a 3 años.
+
+? Según el Decreto 18/2008 de Madrid, ¿cuántos niños puede haber como máximo en una unidad de 1 a 2 años?
++ 14.
+- 13.
+- 16.
+- 20.
+= La ratio madrileña para 1-2 años es de 14. En la de 2-3 años es de 20 y en la de bebés, de 8.
+
+? Según el Decreto 18/2008 de Madrid, ¿cuál es la ratio máxima en una unidad de 2 a 3 años?
++ 20.
+- 18.
+- 15.
+- 25.
+= Veinte niños por unidad. El máximo de 25 corresponde al segundo ciclo (3-6 años).
+
+? En Madrid, en centros de menos de 3 unidades que agrupan edades distintas, ¿cuál es el máximo de niños por unidad?
++ 15, sin superar el límite de cada tramo de edad.
+- 20.
+- 8.
+- 25.
+= El Decreto 18/2008 permite agrupar edades en centros pequeños con autorización, con un máximo de 15 niños por unidad.
+
+? ¿Qué superficie mínima debe tener cada aula según el Decreto 18/2008 de Madrid?
++ 30 m².
+- 20 m².
+- 40 m².
+- 50 m².
+= Cada unidad debe tener al menos 30 m². En centros de menos de 3 unidades puede autorizarse menos, con 2 m² por niño y un mínimo de 18 m².
+
+? En un centro madrileño de primer ciclo con 3 o más unidades, ¿cuántos profesionales cualificados debe haber?
++ Tantos como unidades en funcionamiento, más uno.
+- Uno por unidad, sin ninguno más.
+- Dos por unidad.
+- Uno por cada dos unidades.
+= Además, debe haber al menos un maestro especialista en Educación Infantil (o equivalente) por cada 6 unidades o fracción.
+
+? Según el Decreto 18/2008 de Madrid, ¿cuántos maestros especialistas en Educación Infantil debe haber como mínimo?
++ Uno por cada 6 unidades o fracción.
+- Uno por unidad.
+- Uno por centro, sin importar el tamaño.
+- No es obligatorio ninguno.
+= El resto del personal de atención directa puede ser Técnico Superior en Educación Infantil u otras titulaciones habilitadas.
+
+? ¿Qué norma establece el currículo de 0 a 6 años que debe estudiar un educador infantil en Madrid?
++ El Decreto 36/2022, de 8 de junio.
+- El Decreto 18/2008, de 6 de marzo.
+- El Decreto 61/2022 de Navarra.
+- El Real Decreto 132/2010.
+= El Decreto 36/2022 establece la ordenación y el currículo de toda la etapa en la Comunidad de Madrid, también del primer ciclo. El 18/2008 regula los requisitos de los centros.
+
+## EI03
+? ¿Quién regula los requisitos mínimos (espacios, ratios, titulaciones) de los centros de primer ciclo de Infantil?
++ Cada comunidad autónoma, en su ámbito.
+- El Ministerio, igual para toda España.
+- Cada ayuntamiento sin norma autonómica.
+- La Unión Europea.
+= Por eso las ratios y los metros cuadrados de las escuelas infantiles cambian de una comunidad a otra. Revisa siempre la norma de la tuya.
+
+? ¿Qué es una escuela infantil de titularidad pública?
++ Un centro que pertenece a una administración (comunidad o ayuntamiento), aunque su gestión pueda ser directa o indirecta.
+- Cualquier escuela que reciba alumnos de familias con pocos recursos.
+- Una escuela privada con algún niño becado.
+- Solo los colegios de Primaria con aula de 2 años.
+= Muchas escuelas públicas se gestionan de forma indirecta mediante contratos con empresas o cooperativas, pero siguen siendo de titularidad pública.
+
+? En el primer ciclo, ¿qué papel tiene el Técnico Superior en Educación Infantil?
++ Atiende directamente a los niños y desarrolla la programación educativa junto al equipo, bajo la coordinación pedagógica del centro.
+- Solo se encarga de la limpieza y el comedor.
+- No puede trabajar con niños de 0-3 años.
+- Sustituye a la dirección del centro.
+= Es una de las titulaciones habilitadas para la atención educativa directa en 0-3 en todas las comunidades.
+
+## E03
+? ¿A qué edad suele alcanzarse el control diurno de esfínteres?
++ Habitualmente entre los 2 y los 3 años, con mucha variabilidad individual.
+- Al año.
+- A los 4 años en todos los casos.
+- A los 6 meses si se entrena pronto.
+= Depende de la maduración neurológica y de la disposición del niño. El control nocturno suele llegar más tarde que el diurno.
+
+? ¿Qué señal indica que un niño puede estar preparado para dejar el pañal?
++ Pasa periodos de un par de horas seco, avisa de que se ha hecho pipí y muestra interés por el orinal.
+- Ha cumplido exactamente 2 años.
+- Sus compañeros ya lo han dejado.
+- Empieza el curso escolar.
+= La retirada del pañal debe coordinarse con la familia y respetar el ritmo del niño, sin castigos ni comparaciones.
+
+? Ante un escape de pis de un niño que está dejando el pañal, ¿qué actitud es adecuada?
++ Cambiarle con naturalidad y sin reñirle, y animarle a ir al baño la próxima vez.
+- Reñirle delante del grupo para que no se repita.
+- Volver a ponerle pañal como castigo.
+- Dejarle mojado un rato para que lo note.
+= Los escapes forman parte del proceso. Reñir o avergonzar genera tensión y suele retrasar el control.
+
+? ¿Qué es la enuresis?
++ La emisión involuntaria de orina a una edad en la que ya se espera el control (habitualmente a partir de los 5 años).
+- La retención de heces.
+- El miedo al inodoro.
+- La infección de orina.
+= Antes de los 5 años los escapes se consideran evolutivos. La encopresis se refiere a las heces.
+
+? ¿Qué caracteriza el momento del cambio de pañal desde un enfoque educativo?
++ Es un momento de relación individual: se anticipa al bebé lo que se va a hacer, se le habla y se busca su colaboración.
+- Debe hacerse lo más rápido posible y en silencio.
+- Es un trámite sin valor educativo.
+- Se hace a todos a la vez en fila.
+= Siguiendo a Pikler, los cuidados son momentos privilegiados de vínculo. El bebé participa cada vez más (levantar las piernas, ayudar a vestirse).
+
+? ¿Qué características debe tener el espacio de descanso en una escuela infantil?
++ Tranquilo, ventilado, con luz tenue, cuna o colchoneta individual y un adulto que vigila el sueño.
+- Compartido con la zona de juego activo.
+- Sin supervisión para no molestar.
+- Con luz intensa para que no duerman demasiado.
+= La supervisión del sueño es obligatoria. Cada niño debe tener su espacio y sus objetos de apego si los necesita.
+
+? Un bebé de 9 meses en la escuela se duerme a una hora distinta de la marcada en el horario. ¿Qué debe hacer el educador?
++ Respetar su ritmo de sueño y acostarle cuando lo necesite.
+- Mantenerle despierto hasta la hora de la siesta del grupo.
+- Despertarle para que coma con los demás.
+- Avisar a la familia de que no se adapta.
+= En los primeros meses cada bebé tiene sus propios ritmos. La escuela se adapta al niño, no al revés.
+
+? En el aula de bebés, ¿qué tipo de juguetes conviene ofrecer?
++ Objetos seguros, lavables, de diferentes texturas y sin piezas pequeñas.
+- Juguetes con pilas de botón accesibles.
+- Juguetes pequeños que quepan en el puño cerrado.
+- Peluches con ojos cosidos con alfileres.
+= La seguridad es lo primero: las pilas de botón y las piezas pequeñas pueden causar asfixia o lesiones graves.
+
+? Durante el periodo de adaptación en una escuela infantil, un niño de 1 año llora mucho al separarse. ¿Qué es más adecuado?
++ Acogerle con calma y contacto físico, ofrecerle su objeto de apego y mantener rutinas previsibles.
+- Ignorar el llanto para que se acostumbre.
+- Pedir a la familia que no vuelva a entrar en el aula.
+- Distraerle con pantallas.
+= El llanto es una forma de comunicar la angustia de separación. Un adulto de referencia estable ayuda a construir un nuevo vínculo seguro.
+
+? ¿Cuál es el principal medio de transmisión de infecciones en la escuela infantil?
++ Las manos y los objetos compartidos que van a la boca.
+- El agua del grifo.
+- La ropa de abrigo.
+- Los libros de cuentos.
+= El lavado de manos (adultos y niños), la limpieza de juguetes y superficies y la exclusión temporal en enfermedades contagiosas son las medidas clave.
+
+? ¿Cuándo debe lavarse las manos el educador en el aula de 0-1 año?
++ Antes y después de cada cambio de pañal, antes de dar de comer y después de sonar mocos.
+- Solo al llegar y al irse.
+- Una vez al día.
+- Solo si están visiblemente sucias.
+= El lavado frecuente de manos es la medida más eficaz para prevenir infecciones en los centros de primer ciclo.

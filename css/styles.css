@@ -2937,3 +2937,7 @@ html.native-app .app-tabbar {
 .study-pane[hidden] {
     display: none;
 }
+
+.route-card[hidden] {
+    display: none;
+}

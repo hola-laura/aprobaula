@@ -560,9 +560,14 @@ function initializeEventListeners() {
             btn.setAttribute('aria-pressed', btn === card ? 'true' : 'false');
         });
         syncOposicionSave();
+        if (!document.getElementById('ccaaSelect')?.value) {
+            showToast('Elige primero tu comunidad');
+            document.getElementById('ccaaSelect')?.focus();
+            return;
+        }
+        saveOposicion();
     });
     document.getElementById('ccaaSelect')?.addEventListener('change', syncOposicionSave);
-    document.getElementById('saveOposicionBtn')?.addEventListener('click', saveOposicion);
     document.getElementById('blankButton')?.addEventListener('click', leaveBlank);
 
     const langButton = document.getElementById('langButton');
@@ -1046,14 +1051,19 @@ function selectedRoute() {
 }
 
 function syncOposicionSave() {
-    const route = questionsMeta.routes[selectedRoute()];
     const select = document.getElementById('ccaaSelect');
-    if (select) {
-        if (route && route.fixedCcaa) select.value = route.fixedCcaa;
-        select.disabled = !!(route && route.fixedCcaa);
-    }
-    const btn = document.getElementById('saveOposicionBtn');
-    if (btn) btn.disabled = !(selectedRoute() && document.getElementById('ccaaSelect')?.value);
+    const chosen = questionsMeta.routes[selectedRoute()];
+    if (select && chosen && chosen.fixedCcaa && !select.value) select.value = chosen.fixedCcaa;
+    const ccaa = select ? select.value : '';
+    // Las vías ligadas a una comunidad (p. ej. Educador/a CAM) solo se muestran si coincide.
+    document.querySelectorAll('#oposicionForm [data-route]').forEach((btn) => {
+        const r = questionsMeta.routes[btn.dataset.route];
+        const fixed = r && r.fixedCcaa;
+        const show = !fixed || !ccaa || ccaa === fixed;
+        btn.hidden = !show;
+        if (!show) btn.setAttribute('aria-pressed', 'false');
+    });
+
 }
 
 function saveOposicion() {

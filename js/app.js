@@ -18,7 +18,7 @@ let userStats = {
 
 let currentLang = 'es';
 
-const FEEDBACK_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbwTrNXvQdzm2I-WFr_v4aojYbk_dLbxTVfov05Vg1q5w7wgdgmn0IKGR5YhELUVu74/exec';
+const FEEDBACK_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbydnLmjxweYaI152s1Q2NfrlJwuXLefrlR26-gFm2Ndq_w9LEkjXhTFcDS5Ga0I1CM/exec';
 const FEEDBACK_TYPE_LABEL = {
     wrong_question: 'Aprobaula · La pregunta está mal formulada',
     wrong_answer: 'Aprobaula · La respuesta correcta es otra',

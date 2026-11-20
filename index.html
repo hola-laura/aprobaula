@@ -398,7 +398,7 @@
         <div id="temarioView" class="view">
             <div class="page-title-bar">
                 <h1 class="page-title">Mi temario</h1>
-                <p class="match-sub">Sube un tema y la app saca preguntas de rellenar el hueco con sus datos clave. Tu archivo no sale de este dispositivo.</p>
+                <p class="match-sub">Sube un tema y la app saca preguntas de rellenar el hueco con sus datos clave.</p>
             </div>
             <div class="page temario-page">
                 <div class="prompt-card temario-upload">
@@ -410,35 +410,15 @@
                     <button type="button" class="pill-button outline" id="temarioPickBtn">Elegir archivo (PDF, Word o texto)</button>
                     <p class="temario-or">o pega el texto</p>
                     <textarea id="temarioText" class="form-input temario-text" rows="6" placeholder="Pega aquí el texto de tu tema"></textarea>
+                    <label class="temario-share">
+                        <input type="checkbox" id="temarioShare" checked>
+                        <span>Compartir este tema con Aprobaula para ayudar a mejorar las preguntas</span>
+                    </label>
                     <button type="button" class="pill-button" id="temarioCreateBtn">Crear preguntas</button>
                     <p class="temario-status" id="temarioStatus" aria-live="polite"></p>
                 </div>
 
                 <div id="temarioList" class="temario-list"></div>
-
-                <details class="prompt-card temario-manual">
-                    <summary class="prompt-label">Escribir una pregunta a mano</summary>
-                    <div class="form-group">
-                        <label class="form-label" for="manualTema">Tema</label>
-                        <select id="manualTema" class="form-select"></select>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label" for="manualQ">Pregunta</label>
-                        <textarea id="manualQ" class="form-input" rows="2"></textarea>
-                    </div>
-                    <div class="form-group manual-answers">
-                        <label class="form-label">Respuestas (marca la correcta)</label>
-                        <label class="manual-answer"><input type="radio" name="manualCorrect" value="0" checked><input class="form-input" type="text" placeholder="Respuesta correcta"></label>
-                        <label class="manual-answer"><input type="radio" name="manualCorrect" value="1"><input class="form-input" type="text" placeholder="Otra respuesta"></label>
-                        <label class="manual-answer"><input type="radio" name="manualCorrect" value="2"><input class="form-input" type="text" placeholder="Otra respuesta (opcional)"></label>
-                        <label class="manual-answer"><input type="radio" name="manualCorrect" value="3"><input class="form-input" type="text" placeholder="Otra respuesta (opcional)"></label>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label" for="manualE">Explicación (opcional)</label>
-                        <textarea id="manualE" class="form-input" rows="2"></textarea>
-                    </div>
-                    <button type="button" class="pill-button" id="manualSaveBtn">Guardar pregunta</button>
-                </details>
             </div>
         </div>
 

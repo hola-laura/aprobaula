@@ -2979,3 +2979,21 @@ html.native-app .app-tabbar {
 .temario-list .library-empty {
     padding-bottom: 8px;
 }
+
+.temario-share {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--ink-2);
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.temario-share input {
+    flex: none;
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+    accent-color: var(--accent);
+}

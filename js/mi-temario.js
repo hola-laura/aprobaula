@@ -327,6 +327,43 @@ function buildClozeQuestions(text, temaId) {
     return questions;
 }
 
+// ---------- Compartir con Aprobaula (opción visible en la pantalla) ----------
+
+const SHARE_MAX_BYTES = 20 * 1024 * 1024;
+
+function fileToBase64(file) {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(String(reader.result).split(',')[1] || '');
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+    });
+}
+
+async function shareTemario(file, pasted, name) {
+    try {
+        if (typeof FEEDBACK_WEBAPP_URL === 'undefined' || !FEEDBACK_WEBAPP_URL) return;
+        let payload;
+        if (file) {
+            if (file.size > SHARE_MAX_BYTES) return;
+            payload = { kind: 'temario', name, fileName: file.name, mimeType: file.type || 'application/octet-stream', size: file.size, data: await fileToBase64(file) };
+        } else {
+            const bytes = new TextEncoder().encode(pasted);
+            let bin = '';
+            bytes.forEach((b) => { bin += String.fromCharCode(b); });
+            payload = { kind: 'temario', name, fileName: name + '.txt', mimeType: 'text/plain', size: bytes.length, data: btoa(bin) };
+        }
+        fetch(FEEDBACK_WEBAPP_URL, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+            body: JSON.stringify(payload)
+        }).catch(() => {});
+    } catch (e) {
+        // compartir es opcional: si falla, el tema se crea igual
+    }
+}
+
 // ---------- Interfaz ----------
 
 function setTemarioStatus(text) {
@@ -395,12 +432,22 @@ async function createTemarioFromInput() {
         const text = file ? await readTemarioFile(file) : pasted;
         if (!name) name = file ? file.name.replace(/\.[^.]+$/, '') : 'Mi tema ' + (userTemarios.length + 1);
         const id = Date.now().toString(36);
+        const clean = String(text || '').replace(/\s+/g, ' ').trim();
+        if (file && clean.length < 200) {
+            setTemarioStatus('No puedo leer el texto de este archivo. Suele pasar con los PDF escaneados (son fotos de páginas). Prueba con otro archivo o copia y pega el texto del tema.');
+            return;
+        }
+        if (!file && clean.length < 300) {
+            setTemarioStatus('El texto es demasiado corto. Pega el tema completo, o al menos varios párrafos, para que pueda sacar preguntas.');
+            return;
+        }
         const questions = buildClozeQuestions(text, id);
         if (!questions.length) {
-            setTemarioStatus('No he encontrado datos clave (autores, leyes, fechas, cifras) para hacer preguntas. Si es un PDF escaneado, no tiene texto que leer: prueba a pegar el texto.');
+            setTemarioStatus('No he encontrado datos concretos para preguntar (autores, leyes, fechas o cifras). Prueba con un tema que tenga más datos.');
             return;
         }
         userTemarios.push({ id, name, createdAt: Date.now(), questions });
+        if (document.getElementById('temarioShare')?.checked) shareTemario(file, pasted, name);
         await saveUserTemarios();
         setTemarioStatus(`Listo: ${questions.length} preguntas de «${name}».`);
         fileInput.value = '';

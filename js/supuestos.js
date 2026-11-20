@@ -2,7 +2,7 @@
 const SUPUESTOS = [
     {
         id: 'sp-adaptacion-12m',
-        routes: ['educador', 'maestros'],
+        routes: ['educador', 'educador_cam', 'maestros'],
         edad: 'Aula de 1-2 años',
         titulo: 'Periodo de adaptación con llanto persistente',
         enunciado: 'Lucía, de 14 meses, se incorpora a la escuela infantil en septiembre. Es su primera experiencia fuera de casa. Durante la primera semana llora mucho cuando su madre se va, rechaza la comida y solo se calma en brazos de una educadora concreta. La madre está angustiada y propone irse sin despedirse para que la niña "no se dé cuenta".',
@@ -23,7 +23,7 @@ const SUPUESTOS = [
     },
     {
         id: 'sp-mordiscos',
-        routes: ['educador'],
+        routes: ['educador', 'educador_cam'],
         edad: 'Aula de 1-2 años',
         titulo: 'Un niño que muerde a sus compañeros',
         enunciado: 'Hugo, de 20 meses, ha mordido a tres compañeros en dos semanas, sobre todo en el rincón de juego cuando otro niño coge el juguete que él quiere. Las familias de los niños mordidos han pedido explicaciones y una de ellas exige saber quién ha sido.',
@@ -43,7 +43,7 @@ const SUPUESTOS = [
     },
     {
         id: 'sp-panal',
-        routes: ['educador'],
+        routes: ['educador', 'educador_cam'],
         edad: 'Aula de 2-3 años',
         titulo: 'Retirada del pañal a petición de la familia',
         enunciado: 'En enero, la familia de Martín (2 años y 4 meses) pide que le quitéis el pañal en la escuela porque "en verano lo dejamos y ahora ya toca". En el aula, Martín no avisa cuando se moja, rechaza sentarse en el orinal y llora si se le insiste.',
@@ -61,7 +61,7 @@ const SUPUESTOS = [
     },
     {
         id: 'sp-alergia',
-        routes: ['educador', 'maestros'],
+        routes: ['educador', 'educador_cam', 'maestros'],
         edad: 'Escuela infantil o colegio',
         titulo: 'Reacción alérgica en el comedor',
         enunciado: 'Durante la comida, Sara (3 años), con alergia diagnosticada a la proteína de leche de vaca, empieza a toser, le salen ronchas en la cara y dice que le pica la boca. Un compañero le había ofrecido su yogur.',
@@ -79,7 +79,7 @@ const SUPUESTOS = [
     },
     {
         id: 'sp-sospecha-maltrato',
-        routes: ['educador', 'maestros'],
+        routes: ['educador', 'educador_cam', 'maestros'],
         edad: 'Cualquier edad',
         titulo: 'Indicios de desatención en un niño',
         enunciado: 'Desde hace un mes, Adam (4 años) llega a menudo sin desayunar, con la misma ropa varios días y con mala higiene. Hoy, al cambiarle de ropa tras un escape, ves moratones en la espalda en distintos estados de curación. Adam está más callado de lo habitual.',
@@ -117,7 +117,7 @@ const SUPUESTOS = [
     },
     {
         id: 'sp-conflicto-familia',
-        routes: ['maestros', 'educador'],
+        routes: ['maestros', 'educador', 'educador_cam'],
         edad: 'Aula de 3 años',
         titulo: 'Una familia en desacuerdo con la metodología',
         enunciado: 'El padre de Daniel (3 años) te dice en la salida, delante de otras familias, que en el aula "solo jugáis" y que en otro colegio ya hacen fichas de letras. Exige que su hijo empiece a leer este curso.',
@@ -135,7 +135,7 @@ const SUPUESTOS = [
     },
     {
         id: 'sp-espacios-0-1',
-        routes: ['educador'],
+        routes: ['educador', 'educador_cam'],
         edad: 'Aula de 0-1 años',
         titulo: 'Organizar el aula de bebés',
         enunciado: 'Te asignan un aula de bebés de 4 a 11 meses en una escuela infantil de nueva apertura. El aula tiene 32 m², una zona de cunas anexa y una ventana grande. Tienes presupuesto para mobiliario y materiales.',

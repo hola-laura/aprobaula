@@ -347,6 +347,8 @@ function displayCategory(name) {
         return 'Mi temario · ' + (typeof getUserTopicName === 'function' ? getUserTopicName(name) : '');
     }
     const label = questionsMeta.topics[name];
+    const tl = questionsMeta.temaLabels && questionsMeta.temaLabels[name];
+    if (label && tl) return `${tl} · ${label}`;
     if (label) {
         const n = questionsMeta.temaNumbers[name];
         return n && userRoute() !== 'educador' ? `Tema ${n} · ${label}` : label;
@@ -778,6 +780,7 @@ function applyQuestions(data) {
     questionsMeta = {
         topics: data.topics || {},
         temaNumbers: data.temaNumbers || {},
+        temaLabels: data.temaLabels || {},
         routes: data.routes || {},
         ccaa: data.ccaa || {}
     };
@@ -1009,6 +1012,7 @@ async function runWithLoader(task) {
 }
 
 function goHome() {
+    stopExamTimer();
     showView('homeView');
     updateHomeStats();
 }
@@ -1042,6 +1046,12 @@ function selectedRoute() {
 }
 
 function syncOposicionSave() {
+    const route = questionsMeta.routes[selectedRoute()];
+    const select = document.getElementById('ccaaSelect');
+    if (select) {
+        if (route && route.fixedCcaa) select.value = route.fixedCcaa;
+        select.disabled = !!(route && route.fixedCcaa);
+    }
     const btn = document.getElementById('saveOposicionBtn');
     if (btn) btn.disabled = !(selectedRoute() && document.getElementById('ccaaSelect')?.value);
 }
@@ -1335,16 +1345,59 @@ async function startMode(mode) {
     if (!ready) return;
     showView('testView');
     loadQuestion();
+    if (mode === 'exam') startExamTimer();
+    else stopExamTimer();
+}
+
+function examConfig() {
+    const route = questionsMeta.routes[userRoute()];
+    return Object.assign({ size: EXAM_SIZE, maxScore: 10, passScore: 5, minutes: 0, blocks: null }, route && route.exam);
 }
 
 function examSize() {
-    return Math.min(EXAM_SIZE, questionsData.length || EXAM_SIZE);
+    return Math.min(examConfig().size, questionsData.length || EXAM_SIZE);
 }
 
 function examScore() {
     const total = currentTest.length || 1;
     const raw = correctAnswers - wrongAnswers / 3;
-    return Math.max(0, Math.round((raw / total) * 100) / 10);
+    const max = examConfig().maxScore;
+    return Math.max(0, Math.round((raw / total) * max * 100) / 100);
+}
+
+let examTimer = null;
+let examDeadline = 0;
+
+function stopExamTimer() {
+    if (examTimer) clearInterval(examTimer);
+    examTimer = null;
+    const el = document.getElementById('examClock');
+    if (el) el.textContent = '';
+}
+
+function startExamTimer() {
+    stopExamTimer();
+    const minutes = examConfig().minutes;
+    if (!minutes) return;
+    examDeadline = Date.now() + minutes * 60000;
+    const tick = () => {
+        const el = document.getElementById('examClock');
+        const left = Math.max(0, examDeadline - Date.now());
+        if (el) {
+            const m = Math.floor(left / 60000);
+            const sec = Math.floor((left % 60000) / 1000);
+            el.textContent = `⏱ ${m}:${String(sec).padStart(2, '0')}`;
+        }
+        if (left <= 0) {
+            stopExamTimer();
+            if (document.getElementById('testView')?.classList.contains('active')) {
+                showToast('Se acabó el tiempo');
+                showResults();
+            }
+        }
+    };
+    tick();
+    examTimer = setInterval(tick, 1000);
 }
 
 function leaveBlank() {
@@ -1354,6 +1407,15 @@ function leaveBlank() {
 }
 
 function getRandomQuestions(count) {
+    const blocks = examConfig().blocks;
+    if (testMode === 'exam' && Array.isArray(blocks)) {
+        const out = [];
+        blocks.forEach((b) => {
+            const set = new Set(b.topics);
+            out.push(...shuffleArray(questionsData.filter((q) => set.has(q.category))).slice(0, b.count));
+        });
+        return out;
+    }
     const shuffled = shuffleArray([...questionsData]);
     return shuffled.slice(0, count);
 }
@@ -1630,10 +1692,12 @@ function askConfirm({ title, text, ok, cancel }) {
 // ============================================
 
 function showResults() {
+    stopExamTimer();
+    const cfg = examConfig();
     const totalQuestions = testMode === 'exam' ? currentTest.length : currentQuestionIndex + 1;
     const score = Math.round((correctAnswers / Math.max(1, totalQuestions)) * 100);
     const nota = examScore();
-    const passed = testMode === 'exam' ? nota >= 5 : score >= 70;
+    const passed = testMode === 'exam' ? nota >= cfg.passScore : score >= 70;
     
     const resultIcon = document.getElementById('resultIcon');
     resultIcon.textContent = passed ? '✓' : '✕';
@@ -1646,10 +1710,10 @@ function showResults() {
     document.getElementById('correctAnswers').textContent = correctAnswers;
     document.getElementById('wrongAnswers').textContent = wrongAnswers;
     document.getElementById('finalScore').textContent = testMode === 'exam'
-        ? nota.toLocaleString('es-ES', { maximumFractionDigits: 1 })
+        ? nota.toLocaleString('es-ES', { maximumFractionDigits: 2 })
         : `${score}%`;
     const scoreLabel = document.querySelector('#resultsView [data-i18n="scoreLabel"]');
-    if (scoreLabel) scoreLabel.textContent = testMode === 'exam' ? 'Nota /10' : t('scoreLabel');
+    if (scoreLabel) scoreLabel.textContent = testMode === 'exam' ? `Nota /${cfg.maxScore}` : t('scoreLabel');
     const blankEl = document.getElementById('blankInfo');
     if (blankEl) {
         blankEl.textContent = testMode === 'exam' && blankAnswers
@@ -1979,7 +2043,7 @@ function updateHomeStats() {
         routeChip.textContent = route ? `${route.short} · ${ccaa || 'Sin comunidad'}` : 'Elige tu oposición';
     }
     const examMeta = document.getElementById('examMetaLabel');
-    if (examMeta) examMeta.textContent = t('examMeta', { n: examSize() });
+    if (examMeta) examMeta.textContent = examConfig().meta || t('examMeta', { n: examSize() });
     document.getElementById('totalQuestions').textContent = known || '—';
     document.getElementById('completedQuestions').textContent = userStats.totalAnswered;
     document.getElementById('weakTopics').textContent = getReviewCount();

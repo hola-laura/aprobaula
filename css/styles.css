@@ -2941,3 +2941,41 @@ html.native-app .app-tabbar {
 .route-card[hidden] {
     display: none;
 }
+
+.temario-restore {
+    margin: 0;
+    text-align: center;
+    color: var(--ink-3);
+    font-size: 14px;
+}
+
+.link-button {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--accent);
+    font: inherit;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    cursor: pointer;
+}
+
+.temario-backup-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 6px;
+}
+
+.temario-backup-note {
+    margin: 0;
+    color: var(--ink-3);
+    font-size: 13px;
+    line-height: 1.45;
+    text-align: center;
+}
+
+.temario-list .library-empty {
+    padding-bottom: 8px;
+}

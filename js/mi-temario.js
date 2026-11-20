@@ -342,16 +342,21 @@ function renderTemarioList() {
     const list = document.getElementById('temarioList');
     if (!list) return;
     const temas = userTemarios.filter((t) => (t.questions || []).length);
-    const backup = `
-        <div class="temario-backup">
-            <button type="button" class="pill-button outline" data-temario-export ${userTemarios.length ? '' : 'disabled'}>Guardar copia</button>
-            <button type="button" class="pill-button outline" data-temario-import>Recuperar copia</button>
-            <input type="file" id="temarioBackupFile" accept=".json,application/json" hidden>
-        </div>`;
+    const fileInput = '<input type="file" id="temarioBackupFile" accept=".json,application/json" hidden>';
     if (!temas.length) {
-        list.innerHTML = '<p class="library-empty">Aún no has subido ningún tema.</p>' + backup;
+        list.innerHTML = `
+            <p class="library-empty">Aún no has subido ningún tema.</p>
+            <p class="temario-restore">¿Tienes una copia guardada? <button type="button" class="link-button" data-temario-import>Recupérala</button></p>
+            ${fileInput}`;
         return;
     }
+    const backup = `
+        <div class="temario-backup-box">
+            <button type="button" class="pill-button outline" data-temario-export>Guardar copia de mis temas</button>
+            <p class="temario-backup-note">Tus temas solo se guardan en este dispositivo. Descarga una copia para no perderlos si cambias de móvil o reinstalas la app.</p>
+            <p class="temario-restore">¿Tienes una copia guardada? <button type="button" class="link-button" data-temario-import>Recupérala</button></p>
+            ${fileInput}
+        </div>`;
     list.innerHTML = temas.map((t) => `
         <div class="prompt-card temario-item" data-id="${t.id}">
             <span class="prompt-label">${t.id === MANUAL_ID ? 'Escritas por ti' : 'Subido el ' + new Date(t.createdAt).toLocaleDateString('es-ES')}</span>

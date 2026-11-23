@@ -340,18 +340,74 @@ function fileToBase64(file) {
     });
 }
 
-async function shareTemario(file, pasted, name) {
+function readAporte() {
+    const err = document.getElementById('aporteError');
+    const fail = (msg, focusId) => {
+        if (err) err.textContent = msg;
+        document.getElementById(focusId)?.focus();
+        return null;
+    };
+    if (err) err.textContent = '';
+    const email = document.getElementById('aporteEmail').value.trim();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return fail('Escribe tu email para poder darte el acceso gratis.', 'aporteEmail');
+    const ccaaSel = document.getElementById('aporteCcaa');
+    const organismo = document.getElementById('aporteOrganismo').value.trim();
+    if (!ccaaSel.value && !organismo) return fail('Dinos dónde es el examen: la comunidad o quién lo convoca.', 'aporteCcaa');
+    const tipos = [...document.querySelectorAll('input[name="aporteTipo"]:checked')].map((el) => el.value);
+    if (!tipos.length) return fail('Marca qué tipo de examen es (si no lo sabes, marca "No lo sé").', 'aporteEmail');
+    try { localStorage.setItem('aprobaula:aporteEmail', email); } catch (e) {}
+    return {
+        email,
+        ccaa: ccaaSel.value ? ccaaSel.options[ccaaSel.selectedIndex].text : '',
+        organismo,
+        tipos: tipos.join(', '),
+        nota: document.getElementById('aporteNota').value.trim()
+    };
+}
+
+function syncAporteFields() {
+    const box = document.getElementById('aporteFields');
+    const on = !!document.getElementById('temarioShare')?.checked;
+    if (box) box.hidden = !on;
+    if (!on) {
+        const err = document.getElementById('aporteError');
+        if (err) err.textContent = '';
+    }
+}
+
+function fillAporteCcaa() {
+    const sel = document.getElementById('aporteCcaa');
+    if (!sel || sel.options.length > 1) return;
+    const map = (typeof questionsMeta !== 'undefined' && questionsMeta.ccaa) || {};
+    Object.entries(map).sort((a, b) => a[1].localeCompare(b[1], 'es')).forEach(([code, label]) => {
+        const opt = document.createElement('option');
+        opt.value = code;
+        opt.textContent = label;
+        sel.appendChild(opt);
+    });
+    const opt = document.createElement('option');
+    opt.value = 'ESTATAL';
+    opt.textContent = 'Toda España / Ministerio';
+    sel.appendChild(opt);
+    try { if (typeof userCcaa === 'function' && userCcaa()) sel.value = userCcaa(); } catch (e) {}
+    try {
+        const saved = localStorage.getItem('aprobaula:aporteEmail');
+        if (saved && !document.getElementById('aporteEmail').value) document.getElementById('aporteEmail').value = saved;
+    } catch (e) {}
+}
+
+async function shareTemario(file, pasted, name, aporte) {
     try {
         if (typeof FEEDBACK_WEBAPP_URL === 'undefined' || !FEEDBACK_WEBAPP_URL) return;
         let payload;
         if (file) {
             if (file.size > SHARE_MAX_BYTES) return;
-            payload = { kind: 'temario', name, fileName: file.name, mimeType: file.type || 'application/octet-stream', size: file.size, data: await fileToBase64(file) };
+            payload = { kind: 'temario', name, fileName: file.name, mimeType: file.type || 'application/octet-stream', size: file.size, data: await fileToBase64(file), ...aporte };
         } else {
             const bytes = new TextEncoder().encode(pasted);
             let bin = '';
             bytes.forEach((b) => { bin += String.fromCharCode(b); });
-            payload = { kind: 'temario', name, fileName: name + '.txt', mimeType: 'text/plain', size: bytes.length, data: btoa(bin) };
+            payload = { kind: 'temario', name, fileName: name + '.txt', mimeType: 'text/plain', size: bytes.length, data: btoa(bin), ...aporte };
         }
         fetch(FEEDBACK_WEBAPP_URL, {
             method: 'POST',
@@ -425,31 +481,38 @@ async function createTemarioFromInput() {
         setTemarioStatus('Elige un archivo o pega el texto de tu tema.');
         return;
     }
+    const sharing = !!document.getElementById('temarioShare')?.checked;
+    let aporte = null;
+    if (sharing) {
+        aporte = readAporte();
+        if (!aporte) return;
+    }
     const btn = document.getElementById('temarioCreateBtn');
     btn.disabled = true;
     try {
-        setTemarioStatus('Leyendo tu tema…');
-        const text = file ? await readTemarioFile(file) : pasted;
         if (!name) name = file ? file.name.replace(/\.[^.]+$/, '') : 'Mi tema ' + (userTemarios.length + 1);
+        if (sharing) shareTemario(file, pasted, name, aporte);
+        const thanks = sharing ? '¡Gracias por aportarlo! Te escribiremos cuando tengas tu acceso gratis. ' : '';
+        setTemarioStatus('Leyendo tu tema…');
+        const text = file ? await readTemarioFile(file).catch(() => '') : pasted;
         const id = Date.now().toString(36);
         const clean = String(text || '').replace(/\s+/g, ' ').trim();
         if (file && clean.length < 200) {
-            setTemarioStatus('No puedo leer el texto de este archivo. Suele pasar con los PDF escaneados (son fotos de páginas). Prueba con otro archivo o copia y pega el texto del tema.');
+            setTemarioStatus(thanks + 'No puedo leer el texto de este archivo para crear preguntas aquí (suele pasar con los PDF escaneados). Prueba con otro archivo o pega el texto del tema.');
             return;
         }
         if (!file && clean.length < 300) {
-            setTemarioStatus('El texto es demasiado corto. Pega el tema completo, o al menos varios párrafos, para que pueda sacar preguntas.');
+            setTemarioStatus(thanks + 'El texto es demasiado corto para sacar preguntas. Pega el tema completo, o al menos varios párrafos.');
             return;
         }
         const questions = buildClozeQuestions(text, id);
         if (!questions.length) {
-            setTemarioStatus('No he encontrado datos concretos para preguntar (autores, leyes, fechas o cifras). Prueba con un tema que tenga más datos.');
+            setTemarioStatus(thanks + 'No he encontrado datos concretos para preguntar (autores, leyes, fechas o cifras).');
             return;
         }
         userTemarios.push({ id, name, createdAt: Date.now(), questions });
-        if (document.getElementById('temarioShare')?.checked) shareTemario(file, pasted, name);
         await saveUserTemarios();
-        setTemarioStatus(`Listo: ${questions.length} preguntas de «${name}».`);
+        setTemarioStatus(`${sharing ? '¡Gracias por aportarlo! ' : ''}Listo: ${questions.length} preguntas de «${name}».`);
         fileInput.value = '';
         document.getElementById('temarioText').value = '';
         document.getElementById('temarioName').value = '';
@@ -556,6 +619,9 @@ async function importTemarios(file) {
 }
 
 async function showTemario() {
+    await ensureQuestions().catch(() => {});
+    fillAporteCcaa();
+    syncAporteFields();
     renderTemarioList();
     renderManualTemaOptions();
     showView('temarioView');
@@ -574,6 +640,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('temarioCreateBtn')?.addEventListener('click', createTemarioFromInput);
     document.getElementById('manualSaveBtn')?.addEventListener('click', saveManualQuestion);
     document.getElementById('temarioHomeBtn')?.addEventListener('click', showTemario);
+    document.getElementById('buildBanner')?.addEventListener('click', showTemario);
+    document.getElementById('temarioShare')?.addEventListener('change', syncAporteFields);
+    document.getElementById('aporteFields')?.addEventListener('input', () => {
+        const err = document.getElementById('aporteError');
+        if (err) err.textContent = '';
+    });
     document.getElementById('temarioList')?.addEventListener('click', (e) => {
         const practice = e.target.closest('[data-temario-practice]');
         if (practice) return practiceTemario(practice.dataset.temarioPractice);

@@ -193,6 +193,13 @@
                     </button>
                 </div>
 
+                <button id="buildBanner" class="prompt-card build-banner" type="button">
+                    <span class="prompt-label">En construcción</span>
+                    <span class="build-title">Ayúdanos a construir Aprobaula</span>
+                    <span class="route-meta">Cada oposición tiene su temario y su tipo de examen. Aporta el tuyo y, cuando la app esté terminada, tendrás acceso gratis.</span>
+                    <span class="build-cta">Aportar mi temario →</span>
+                </button>
+
                 <button id="examModeBtn" class="prompt-card mode-button" data-mode="exam">
                     <span class="prompt-label" data-i18n="examOfficial">Simulacro</span>
                     <span class="prompt-answer" id="examMetaLabel">50 preguntas · Los fallos restan 1/3 · Nota sobre 10</span>
@@ -414,6 +421,35 @@
                         <input type="checkbox" id="temarioShare" checked>
                         <span>Compartir este tema con Aprobaula para ayudar a mejorar las preguntas</span>
                     </label>
+                    <div class="aporte" id="aporteFields">
+                        <p class="aporte-intro">Aprobaula está en construcción. Para usar tu temario necesitamos saber para qué examen es. Quien aporte tendrá <strong>acceso gratis</strong> cuando la app esté terminada.</p>
+                        <div class="form-group">
+                            <label class="form-label" for="aporteEmail">Tu email</label>
+                            <input id="aporteEmail" class="form-input" type="email" inputmode="email" autocomplete="email" placeholder="tu@email.com">
+                            <p class="aporte-hint">Solo para darte el acceso gratis. No se publica ni se comparte.</p>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="aporteCcaa">¿Dónde es el examen?</label>
+                            <select id="aporteCcaa" class="form-select">
+                                <option value="">Comunidad o ciudad autónoma</option>
+                            </select>
+                            <input id="aporteOrganismo" class="form-input" type="text" maxlength="140" placeholder="Quién convoca: p. ej. Ayuntamiento de Getafe, Maestros, Grupo III…">
+                        </div>
+                        <fieldset class="form-group aporte-tipos">
+                            <legend class="form-label">¿Qué tipo de examen es? (marca todos los que tenga)</legend>
+                            <label><input type="checkbox" name="aporteTipo" value="Test"> Test</label>
+                            <label><input type="checkbox" name="aporteTipo" value="Supuesto práctico"> Supuesto práctico</label>
+                            <label><input type="checkbox" name="aporteTipo" value="Tema escrito"> Desarrollo de un tema por escrito</label>
+                            <label><input type="checkbox" name="aporteTipo" value="Defensa oral"> Defensa oral (programación, unidad o situación de aprendizaje)</label>
+                            <label><input type="checkbox" name="aporteTipo" value="Concurso de méritos"> Concurso de méritos</label>
+                            <label><input type="checkbox" name="aporteTipo" value="No lo sé"> No lo sé</label>
+                        </fieldset>
+                        <div class="form-group">
+                            <label class="form-label" for="aporteNota">¿Algo más? (opcional)</label>
+                            <textarea id="aporteNota" class="form-input" rows="2" maxlength="600" placeholder="Fecha del examen, nº de preguntas, enlace a las bases…"></textarea>
+                        </div>
+                        <p class="aporte-error" id="aporteError" role="alert"></p>
+                    </div>
                     <button type="button" class="pill-button" id="temarioCreateBtn">Crear preguntas</button>
                     <p class="temario-status" id="temarioStatus" aria-live="polite"></p>
                 </div>

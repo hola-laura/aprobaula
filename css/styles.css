@@ -2997,3 +2997,103 @@ html.native-app .app-tabbar {
     margin-top: 1px;
     accent-color: var(--accent);
 }
+
+.build-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    width: 100%;
+    text-align: left;
+    font: inherit;
+    color: var(--ink);
+    background: var(--accent-soft);
+    border: 1px dashed var(--accent);
+    cursor: pointer;
+}
+
+.build-title {
+    font-family: var(--serif);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.build-cta {
+    margin-top: 4px;
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.aporte {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 14px;
+    border-radius: 14px;
+    background: var(--accent-soft);
+}
+
+.aporte[hidden] {
+    display: none;
+}
+
+.aporte-intro,
+.aporte-hint {
+    margin: 0;
+    color: var(--ink-2);
+    font-size: 14px;
+    line-height: 1.45;
+}
+
+.aporte-hint {
+    margin-top: 6px;
+    font-size: 12px;
+    color: var(--ink-3);
+}
+
+.aporte .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0;
+}
+
+.aporte-tipos {
+    border: 0;
+    padding: 0;
+}
+
+.aporte-tipos label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.aporte-tipos input {
+    flex: none;
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+    accent-color: var(--accent);
+}
+
+.aporte-error {
+    margin: 0;
+    color: var(--bad, #b2362a);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.aporte-error:empty {
+    display: none;
+}
+
+.aporte textarea {
+    font: inherit;
+    resize: vertical;
+}

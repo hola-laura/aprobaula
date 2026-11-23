@@ -63,19 +63,31 @@ function saveTemario(parent, data) {
   const ssFiles = parent.getFilesByName('Reportes Aprobaula');
   if (ssFiles.hasNext()) {
     const ss = SpreadsheetApp.openById(ssFiles.next().getId());
-    let sheet = ss.getSheetByName('Temarios');
+    let sheet = ss.getSheetByName('Aportaciones');
     if (!sheet) {
-      sheet = ss.insertSheet('Temarios');
-      sheet.appendRow(['Fecha', 'Nombre del tema', 'Archivo', 'Tamaño (KB)', 'Enlace']);
+      sheet = ss.insertSheet('Aportaciones');
+      sheet.appendRow(['Fecha', 'Email', 'Comunidad', 'Quién convoca', 'Tipo de examen', 'Comentario', 'Nombre del tema', 'Archivo', 'Tamaño (KB)', 'Enlace', 'Acceso gratis']);
+      sheet.setFrozenRows(1);
     }
-    sheet.appendRow([new Date(), data.name || '', data.fileName || '', Math.round((data.size || 0) / 1024), file.getUrl()]);
+    sheet.appendRow([new Date(), data.email || '', data.ccaa || '', data.organismo || '', data.tipos || '', data.nota || '', data.name || '', data.fileName || '', Math.round((data.size || 0) / 1024), file.getUrl(), 'Pendiente']);
   }
 
   const me = Session.getEffectiveUser().getEmail();
-  const body = 'Alguien ha compartido un tema en Aprobaula.\n\nNombre: ' + (data.name || '') + '\nArchivo: ' + (data.fileName || '') + '\nEnlace en Drive: ' + file.getUrl();
+  const body = 'Nueva aportación de temario en Aprobaula.\n\n' +
+    'Email: ' + (data.email || '') + '\n' +
+    'Comunidad: ' + (data.ccaa || '') + '\n' +
+    'Quién convoca: ' + (data.organismo || '') + '\n' +
+    'Tipo de examen: ' + (data.tipos || '') + '\n' +
+    'Comentario: ' + (data.nota || '') + '\n\n' +
+    'Tema: ' + (data.name || '') + '\nArchivo: ' + (data.fileName || '') + '\nEnlace en Drive: ' + file.getUrl();
   const options = {};
+  if (data.email) options.replyTo = data.email;
   if (blob.getBytes().length < 20 * 1024 * 1024) options.attachments = [blob];
-  MailApp.sendEmail(me, 'Aprobaula · Nuevo tema compartido: ' + (data.name || data.fileName || ''), body, options);
+  MailApp.sendEmail(me, 'Aprobaula · Nuevo temario: ' + (data.ccaa || data.organismo || '') + ' · ' + (data.name || data.fileName || ''), body, options);
 
   return ContentService.createTextOutput('ok');
+}
+
+function autorizarCorreo() {
+  MailApp.getRemainingDailyQuota();
 }

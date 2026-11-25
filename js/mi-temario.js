@@ -367,7 +367,7 @@ function readAporte() {
 
 function syncAporteFields() {
     const box = document.getElementById('aporteFields');
-    const on = !!document.getElementById('temarioShare')?.checked;
+    const on = true;
     if (box) box.hidden = !on;
     if (!on) {
         const err = document.getElementById('aporteError');
@@ -481,7 +481,7 @@ async function createTemarioFromInput() {
         setTemarioStatus('Elige un archivo o pega el texto de tu tema.');
         return;
     }
-    const sharing = !!document.getElementById('temarioShare')?.checked;
+    const sharing = true;
     let aporte = null;
     if (sharing) {
         aporte = readAporte();
@@ -641,7 +641,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('manualSaveBtn')?.addEventListener('click', saveManualQuestion);
     document.getElementById('temarioHomeBtn')?.addEventListener('click', showTemario);
     document.getElementById('buildBanner')?.addEventListener('click', showTemario);
-    document.getElementById('temarioShare')?.addEventListener('change', syncAporteFields);
     document.getElementById('aporteFields')?.addEventListener('input', () => {
         const err = document.getElementById('aporteError');
         if (err) err.textContent = '';

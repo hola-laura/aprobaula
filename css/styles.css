@@ -2987,7 +2987,7 @@ html.native-app .app-tabbar {
     color: var(--ink-2);
     font-size: 14px;
     line-height: 1.4;
-    cursor: pointer;
+    margin: 4px 0 0;
 }
 
 .temario-share input {
